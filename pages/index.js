@@ -64,6 +64,7 @@ export default function Home() {
         main {
           background-color: #282c34;
           padding: 5rem 0;
+          flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -107,6 +108,7 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
+          background-color: #282c34;
           padding: 0;
           margin: 0;
           font-family:
