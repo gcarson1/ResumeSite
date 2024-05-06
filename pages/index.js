@@ -62,7 +62,6 @@ export default function Home() {
 
       <style jsx>{`
         main {
-          background: #2F2519;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -70,7 +69,7 @@ export default function Home() {
           align-items: center;
         }
         footer {
-          background: #4A3F35;
+          background: #2f2519;
           width: 100%;
           height: 100px;
           border-top: 1px solid #eaeaea;
@@ -89,7 +88,7 @@ export default function Home() {
           color: inherit;
         }
         code {
-          background: #4A3F35;
+          background: #2f2519;
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
@@ -108,7 +107,7 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
-          background-color: #2f2519;
+          background-color: #4A3F35;
           padding: 0;
           margin: 0;
           font-family:
