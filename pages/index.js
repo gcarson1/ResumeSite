@@ -64,7 +64,6 @@ export default function Home() {
         main {
           background-color: #282c34;
           padding: 5rem 0;
-          flex: 1;
           display: flex;
           flex-direction: column;
           justify-content: center;
