@@ -63,7 +63,6 @@ export default function Home() {
       <style jsx>{`
         main {
           background: #2F2519;
-          padding: 5rem 0;
           flex: 1;
           display: flex;
           flex-direction: column;
@@ -71,7 +70,7 @@ export default function Home() {
           align-items: center;
         }
         footer {
-          background: #2F2519;
+          background: #4A3F35;
           width: 100%;
           height: 100px;
           border-top: 1px solid #eaeaea;
