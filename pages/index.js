@@ -108,6 +108,7 @@ export default function Home() {
       <style jsx global>{`
         html,
         body {
+          background-color: #4A3F35;
           padding: 0;
           margin: 0;
           font-family:
