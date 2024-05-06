@@ -81,6 +81,7 @@ export default function Home() {
           margin-left: 0.5rem;
         }
         footer a {
+          background: #4A3F35;
           display: flex;
           justify-content: center;
           align-items: center;
