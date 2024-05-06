@@ -15,7 +15,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          I program in <code>C++, C, JavaScript, Pything, and SQL</code>
+          I program in: <code>C++ C JS Python SQL</code>
         </p>
 
         <div className={styles.grid}>
