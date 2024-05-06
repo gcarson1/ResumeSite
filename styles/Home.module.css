@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -57,7 +58,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #ffeecf;
+  border: 1px solid #faf3e6;
   border-radius: 10px;
   transition:
     color 0.15s ease,
@@ -91,4 +92,35 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.section {
+  width: 100%;
+  padding: 50px 0;
+
+}
+.home {
+  width: 100%;
+  background-color: #2F2519;
+
+}
+.about {
+  width: 100%;
+  background-color: #c2823d;
+}
+.resume {
+  width: 100%;
+  background-color: #f8f9fa;
+}
+.projects {
+  width: 100%;
+  background-color: #2F2519;
+}
+.activities {
+  width: 100%;
+  background-color: #c2823d;
+}
+.contact {
+  width: 100%;
+  background-color: #f8f9fa;
 }

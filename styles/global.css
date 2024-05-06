@@ -1,3 +1,4 @@
+
 html,
 body {
   background-color: #2F2519;
@@ -19,11 +20,12 @@ body {
 }
 
 a {
-  color: #faf3e6;
+
   text-decoration: none;
 }
 
 * {
+  color: #faf3e6;
   box-sizing: border-box;
 }
 
