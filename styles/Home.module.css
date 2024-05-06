@@ -30,7 +30,7 @@
 
 .title,
 .description {
-  color: #faf3e6;
+  color: #ffeecf;
   text-align: center;
 }
 
@@ -40,6 +40,7 @@
 }
 
 .grid {
+  color: #ffeecf;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,7 +57,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #ffeecf;
   border-radius: 10px;
   transition:
     color 0.15s ease,
@@ -66,8 +67,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #FA7D09;
+  border-color: #FA7D09;
 }
 
 .card h3 {
