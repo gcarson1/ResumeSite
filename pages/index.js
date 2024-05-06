@@ -89,7 +89,7 @@ export default function Home() {
           color: inherit;
         }
         code {
-          background: #fafafa;
+          background: #4A3F35;
           border-radius: 5px;
           padding: 0.75rem;
           font-size: 1.1rem;
