@@ -124,3 +124,31 @@
   width: 100%;
   background-color: #f8f9fa;
 }
+
+
+.latertitle a {
+  color: #ebd3bc;
+  text-decoration: none;
+}
+
+.latertitle a:hover,
+.latertitle a:focus,
+.latertitle a:active {
+  text-decoration: underline;
+}
+
+.latertitle {
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-size: 3.6rem;
+}
+
+.latertitle {
+  text-align: center;
+}
+
+.latertitle,
+.description {
+  color: #ffeecf;
+  text-align: center;
+}

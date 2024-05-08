@@ -1,7 +1,10 @@
 
 html,
 body {
-  background-color: #2F2519;
+  background-image: url("../public/DALL·E 2024-05-08 01.12.06 - An extreme close-up view of a retro geometric digital background for a webpage, entirely filling the image frame for a full webpage aspect ratio. The .webp");
+  background-size: 3000px 2000px;
+  background-position: right;
+  height: 100vh;
   padding: 0;
   margin: 0;
   font-family:
@@ -27,6 +30,10 @@ a {
 * {
   color: #faf3e6;
   box-sizing: border-box;
+}
+
+background {
+  background-image: 'url("/Users/gabrielcarson/Desktop/GabrielCarsonSite/public/DALL·E 2024-05-08 01.12.06 - An extreme close-up view of a retro geometric digital background for a webpage, entirely filling the image frame for a full webpage aspect ratio. The .webp")',
 }
 
 img {
