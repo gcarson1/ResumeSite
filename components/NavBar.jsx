@@ -1,16 +1,20 @@
 // components/Navbar.jsx
 
 import Link from "next/link";
+import styles from '../styles/Home.module.css';
 
 const Navbar = () => {
   return (
     <div className="nav-container">
-      <div className="logo">
-        <Link href="/">
-          Joe's Portfolio
+      <div>
+        <Link className={styles.description} href="/">
+          Gabe's Portfolio 
         </Link>
       </div>
-      <a href="" className="cta-btn">Resume</a>
+      <div>
+        <Link href='/' className={styles.tab}> Resume</Link>
+
+      </div>
     </div>
   )
 }

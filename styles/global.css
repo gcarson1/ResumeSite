@@ -1,25 +1,11 @@
 
 html,
 body {
-  background-image: url("../public/DALL·E 2024-05-08 01.12.06 - An extreme close-up view of a retro geometric digital background for a webpage, entirely filling the image frame for a full webpage aspect ratio. The .webp");
-  background-size: 3000px 2000px;
-  background-position: right;
-  height: 100vh;
+  background-color:black;
+  height: 1000px;
   padding: 0;
   margin: 0;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans,
-    Helvetica Neue,
-    sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
 }
 
 a {
@@ -28,17 +14,8 @@ a {
 }
 
 * {
-  color: #faf3e6;
+  color: white;
   box-sizing: border-box;
-}
-
-background {
-  background-image: 'url("/Users/gabrielcarson/Desktop/GabrielCarsonSite/public/DALL·E 2024-05-08 01.12.06 - An extreme close-up view of a retro geometric digital background for a webpage, entirely filling the image frame for a full webpage aspect ratio. The .webp")',
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 

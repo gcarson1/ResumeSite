@@ -5,10 +5,12 @@ const Footer = () => {
       <>
         <hr/>
         <div className="footer-container">
-          <p>
-            © {new Date().getFullYear()} Gabriel's Portfolio
-          </p>
+
           <div className="social_icons">
+            <a>
+            © {new Date().getFullYear()} Gabriel's Portfolio 
+            </a>
+            <a> </a>
             <a
               href="https://twitter.com/olawanle_joel"
               aria-label="Twitter"
@@ -17,6 +19,7 @@ const Footer = () => {
             >
               <i className="fa-brands fa-twitter"></i>
             </a>
+            <a> </a>
             <a
               href="https://github.com/gcarson1"
               aria-label="GitHub"
@@ -25,6 +28,7 @@ const Footer = () => {
             >
               <i className="fa-brands fa-github"></i>
             </a>
+            <a> </a>
             <a
               href="https://www.linkedin.com/in/gabriel-carson-26b140259"
               aria-label="LinkedIn"
