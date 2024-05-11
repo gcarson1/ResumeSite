@@ -29,15 +29,57 @@
 
 .navContainer {
   display: flex;
-  background-color: white;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
+  height: 10vh;
+  background-color: white;
+}
+
+.navContent {
+  display: flex;
+  align-items: center;
   width: 100%;
-  padding: 10px 20px;
+}
+
+.menuIcon {
+  cursor: pointer;
+  display: none; /* Hidden by default, shown on smaller screens */
+}
+
+.menuIcon img {
+  width: 30px;
+  height: 30px;
+}
+
+.menuItems {
+  display: flex;
+  height: 6vh;
+  gap: 1rem;
+}
+
+.showMenu {
+  display: block; /* Shown when menu is toggled */
+}
+
+
+@media (max-width: 826px) {
+  .menuItems {
+    display: none; /* Hidden by default on smaller screens */
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+  }
+
+  .menuIcon {
+    display: block; /* Shown on smaller screens */
+  }
 }
 
 .logo {
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-top: 6px;
   font-weight: bold;
   color: black;
   font-size: 2.0rem;
@@ -52,6 +94,11 @@
   color: black;
   background-color: rgb(255, 255, 255);
   border-radius: 4px;
+}
+
+.ctaBtnMnu {
+  width: auto;
+  height: auto;
 }
 
 

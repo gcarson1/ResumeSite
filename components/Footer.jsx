@@ -12,15 +12,6 @@ const Footer = () => {
             </a>
             <a> </a>
             <a
-              href="https://twitter.com/olawanle_joel"
-              aria-label="Twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fa-brands fa-twitter"></i>
-            </a>
-            <a> </a>
-            <a
               href="https://github.com/gcarson1"
               aria-label="GitHub"
               target="_blank"
