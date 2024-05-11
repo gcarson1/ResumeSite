@@ -22,7 +22,6 @@
 
 .tab {
   text-align: right;
-
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -48,8 +47,8 @@
 }
 
 .menuIcon img {
-  width: 30px;
-  height: 30px;
+  width: auto;
+  height: auto;
 }
 
 .menuItems {
@@ -63,7 +62,7 @@
 }
 
 
-@media (max-width: 826px) {
+@media (max-width: 768px) {
   .menuItems {
     display: none; /* Hidden by default on smaller screens */
     flex-direction: column;
@@ -74,6 +73,7 @@
 
   .menuIcon {
     display: block; /* Shown on smaller screens */
+    color: black;
   }
 }
 
@@ -101,11 +101,11 @@
   height: auto;
 }
 
-
-
-
-
-
+.menulogo {
+  height: 30px;
+  width: 30px;
+  color: black;
+}
 
 
 
