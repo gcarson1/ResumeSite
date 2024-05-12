@@ -1,10 +1,11 @@
 // components/Footer.jsx
+import styles from '../styles/Home.module.css';
 
 const Footer = () => {
     return (
       <>
         <hr/>
-        <div className="footer-container">
+        <div className={styles.footerContainer}>
 
           <div className="social_icons">
             <a>
