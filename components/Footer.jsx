@@ -7,7 +7,7 @@ const Footer = () => {
         <hr/>
         <div className={styles.footerContainer}>
 
-          <div className="social_icons">
+          <div className={styles.social_icons}>
             <a>
             © {new Date().getFullYear()} Gabriel's Portfolio 
             </a>
