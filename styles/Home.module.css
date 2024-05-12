@@ -74,6 +74,9 @@
   .menuIcon {
     display: block; /* Shown on smaller screens */
     color: black;
+    height: 60px;
+    width: 60px;
+    padding-bottom: 6px;
   }
 }
 
