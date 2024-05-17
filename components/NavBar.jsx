@@ -1,12 +1,14 @@
 import Hamburger from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = [true, true];
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
+    setIsOpen(!isOpen);
   };
 
   return (
@@ -15,13 +17,14 @@ const Navbar = () => {
         <div className={styles.menuIcon} onClick={toggleMenu}>
           <Image className={styles.menuIcon} src='menu-burger-horizontal-svgrepo-com.svg' width={30} height={30} alt="Menu"/>
         </div>
-        <div className={`${styles.menuItems} ${isOpen ? styles.showMenu : ''}`}>
-          <Link className={styles.logo} href="/">Gabriel</Link>
-          <Link className={styles.ctaBtn} href="/">Home</Link>
-          <Link className={styles.ctaBtn} href="/">Resume</Link>
-          <Link className={styles.ctaBtn} href="/">Projects</Link>
-          <Link className={styles.ctaBtn} href="/">Contact</Link>
+        <div className={isOpen ? styles.showMenu : ''}>
+          <Link className={styles.menuItems} href="/">Gabriel</Link>
+          <Link className={styles.menuItems} href="/">Home</Link>
+          <Link className={styles.menuItems} href="/">Resume</Link>
+          <Link className={styles.menuItems} href="/">Projects</Link>
+          <Link className={styles.menuItems} href="/">Contact</Link>
         </div>
+      
       </div>
     </nav>
   );

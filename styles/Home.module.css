@@ -32,13 +32,14 @@
   align-items: center;
   padding: 1rem;
   height: 10vh;
-  background-color: black;
+  background-color: rgb(255, 255, 255);
 }
 
 .navContent {
   display: flex;
   align-items: center;
   width: 100%;
+  color: black;
 }
 
 .menuIcon {
@@ -52,13 +53,23 @@
 }
 
 .menuItems {
-  display: flex;
-  height: 6vh;
-  gap: 1rem;
+  line-height: 1.5;
+  font-size: 1.5rem;
+  text-align: left;
 }
 
 .showMenu {
   display: block; /* Shown when menu is toggled */
+  width: 100vw; /* Full viewport width */
+  height: 85vh; /* Adjust to the desired height */
+  background-color: white;
+  font-size: 1.5rem;
+  color: black;
+  position: fixed; /* Fix position to make it cover the entire viewport */
+  top: 10vh; /* Adjust this value to create the gap at the top */
+  left: 0; /* Align to the left of the viewport */
+  z-index: 1000; /* Ensure it is above other elements */
+  overflow-y: auto; /* Enable scrolling if content overflows */
 }
 
 
@@ -73,9 +84,8 @@
 
   .menuIcon {
     display: block; /* Shown on smaller screens */
-    color: black;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     padding-bottom: 6px;
   }
 }
@@ -101,12 +111,6 @@
 .ctaBtnMnu {
   width: auto;
   height: auto;
-}
-
-.menulogo {
-  height: 30px;
-  width: 30px;
-  color: black;
 }
 
 .footerContainer {
