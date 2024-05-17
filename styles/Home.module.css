@@ -60,7 +60,7 @@
 }
 .menuItemsVisible {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: black;
 }
 
@@ -86,6 +86,10 @@
   color: black;
 
 }
+.navButton:hover {
+  color: rgb(120, 118, 115);
+
+}
 
 
 @media (max-width: 768px) {
@@ -94,6 +98,7 @@
   }
   .menuItemsVisible {
     display: flex;
+    font-size: 1.2rem;
     flex-direction: column;
     padding: 1rem;
   }

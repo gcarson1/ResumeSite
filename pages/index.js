@@ -8,7 +8,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Gabriel Carson</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon1.ico" />
       </Head>
 
       <a href="/" className={styles.title}>Gabriel</a>
