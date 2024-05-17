@@ -17,12 +17,12 @@ const Navbar = () => {
         <div className={styles.menuIcon} onClick={toggleMenu}>
           <Image className={styles.menuIcon} src='menu-burger-horizontal-svgrepo-com.svg' width={30} height={30} alt="Menu"/>
         </div>
-        <div className={isOpen ? styles.showMenu : ''}>
-          <Link className={styles.menuItems} href="/">Gabriel</Link>
-          <Link className={styles.menuItems} href="/">Home</Link>
-          <Link className={styles.menuItems} href="/">Resume</Link>
-          <Link className={styles.menuItems} href="/">Projects</Link>
-          <Link className={styles.menuItems} href="/">Contact</Link>
+        <div className={`${isOpen ? styles.showMenu : ''} ${isOpen ? styles.menuItemsVisible : styles.menuItems}`}>
+          <Link class={styles.navButton} href="/">Gabriel</Link>
+          <Link href="/">Home</Link>
+          <Link href="/">Resume</Link>
+          <Link href="/">Projects</Link>
+          <Link href="/">Contact</Link>
         </div>
       
       </div>
