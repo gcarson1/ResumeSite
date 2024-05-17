@@ -19,10 +19,14 @@ const Navbar = () => {
         </div>
         <div className={`${isOpen ? styles.showMenu : ''} ${isOpen ? styles.menuItemsVisible : styles.menuItems}`}>
           <Link class={styles.navButton} href="/">Gabriel</Link>
-          <Link href="/">Home</Link>
-          <Link href="/">Resume</Link>
-          <Link href="/">Projects</Link>
-          <Link href="/">Contact</Link>
+          <a> </a>
+          <Link class={styles.navButton} href="/">Home</Link>
+          <a> </a>
+          <Link class={styles.navButton} href="/">Resume</Link>
+          <a> </a>
+          <Link class={styles.navButton} href="/">Projects</Link>
+          <a> </a>
+          <Link class={styles.navButton} href="/">Contact</Link>
         </div>
       
       </div>
