@@ -8,7 +8,7 @@ body {
   padding: 0;
   height: 100%;
   background-repeat: no-repeat;
-  background-position: fixed;
+  background-position: center;
   background-attachment: scroll;
   background-size: cover;
   margin: 0;
