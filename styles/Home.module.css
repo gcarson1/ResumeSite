@@ -58,6 +58,7 @@
 }
 
 .menuItems {
+  display: flex;
   line-height: 1.5;
   font-size: 1.5rem;
   color: black;
@@ -69,7 +70,7 @@
 }
 
 .showMenu {
-  display: flex; /* Shown when menu is toggled */
+  display: none; /* Shown when menu is toggled */
   flex-direction: column;
   width: 100vw; /* Full viewport width */
   height: 85.1vh; /* Adjust to the desired height */
@@ -85,14 +86,12 @@
 .navButton {
   padding: 1.3rem;
   padding-bottom: 1.4rem;
-  width: 0px;
+  width: auto;
   height: 50px;
   color: rgb(120, 118, 115);
-
 }
 .navButton:hover {
-  color: rgb(20, 20, 20);
-
+  color: rgb(83, 81, 77);
 }
 
 
@@ -100,6 +99,15 @@
   .menuItems {
     display: none; /* Hidden by default on smaller screens */
   }
+
+  .showMenu {
+    display: flex;
+  }
+
+  .navButton {
+    display:static;
+  }
+
   .menuItemsVisible {
     display: flex;
     font-size: 1.1rem;

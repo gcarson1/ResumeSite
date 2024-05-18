@@ -4,6 +4,7 @@
 
 html,
 body {
+  background-color: rgb(109, 106, 105);
   background-image: url(../public/mountains-6754215.jpg);
   padding: 0;
   height: 100%;
