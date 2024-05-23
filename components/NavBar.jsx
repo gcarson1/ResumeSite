@@ -18,15 +18,15 @@ const Navbar = () => {
           <Image className={styles.menuIcon} src='menu-burger-horizontal-svgrepo-com.svg' width={30} height={30} alt="Menu"/>
         </div>
         <div className={`${isOpen ? styles.showMenu : ''} ${isOpen ? styles.menuItemsVisible : styles.menuItems}`}>
-          <Link class={styles.navButton} href="../">Gabriel</Link>
+          <Link class={styles.navButton} href="../" onClick={toggleMenu}>Gabriel</Link>
           <a> </a>
-          <Link class={styles.navButton} href="../resume">Resume</Link>
+          <Link class={styles.navButton} href="../resume" onClick={toggleMenu}>Resume</Link>
           <a> </a>
-          <Link class={styles.navButton} href="../projects">Projects</Link>
+          <Link class={styles.navButton} href="../projects" onClick={toggleMenu}>Projects</Link>
           <a> </a>
-          <Link class={styles.navButton} href="../contact">Contact</Link>
+          <Link class={styles.navButton} href="../contact" onClick={toggleMenu}>Contact</Link>
           <a> </a>
-          <Link class={styles.navButton} href="../hobbies">Hobbies</Link>
+          <Link class={styles.navButton} href="../hobbies" onClick={toggleMenu}>Hobbies</Link>
         </div>
       
       </div>
