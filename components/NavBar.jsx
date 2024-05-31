@@ -13,7 +13,7 @@ const Navbar = () => {
   };
 
   const handleResize = () => {
-    if (window.innerWidth > 900 && isOpen) {
+    if (window.innerWidth > 915 && isOpen) {
       setIsOpen(false);
     }
   };
