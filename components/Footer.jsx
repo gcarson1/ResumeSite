@@ -6,21 +6,18 @@ const Footer = () => {
       <>
         <hr/>
         <div className={styles.footerContainer}>
-
           <div className={styles.social_icons}>
             <a>
-            © {new Date().getFullYear()} Gabriel's Portfolio 
+              {new Date().getFullYear()} Gabriel's Portfolio  
             </a>
-            <a> </a>
             <a
               href="https://github.com/gcarson1"
               aria-label="GitHub"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github">  </i>
             </a>
-            <a> </a>
             <a
               href="https://www.linkedin.com/in/gabriel-carson-26b140259"
               aria-label="LinkedIn"

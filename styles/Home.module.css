@@ -1,6 +1,5 @@
-
 .container {
-  min-height: 85vh;
+  min-height: 250vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -9,8 +8,7 @@
 }
 
 .nonhomeContainer {
-  background-color: rgba(255, 248, 237, 0.296);
-  min-height: 85vh;
+  min-height: 250vh;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -24,6 +22,7 @@
   font-size: 3.6rem;
   color: rgb(196, 192, 187);
 }
+
 .resumeTitle:hover {
   color: rgba(53, 50, 45, 0.506);
 }
@@ -34,6 +33,7 @@
   font-size: 3.6rem;
   color: rgb(196, 192, 187);
 }
+
 .title:hover {
   color: rgb(255, 255, 255);
 }
@@ -81,11 +81,14 @@
   display: flex;
   line-height: 1.5;
   font-size: 1.5rem;
+  font-weight: 300;
   color: black;
 }
+
 .menuItemsVisible {
   line-height: 1.5;
   font-size: 1rem;
+  font-weight: 300;
   color: black;
 }
 
@@ -105,15 +108,15 @@
 
 .navButton {
   padding: 1.3rem;
-  padding-bottom: 1.4rem;
+  padding-bottom: 50px;
   width: auto;
   height: 50px;
-  color: rgb(120, 118, 115);
+  color: rgb(28, 28, 27);
+  font-size: 1.8rem;
 }
 .navButton:hover {
-  color: rgb(83, 81, 77);
+  color: rgb(135, 125, 110);
 }
-
 
 @media (max-width: 915px) {
   .menuItems {
@@ -133,7 +136,7 @@
     font-size: 1.1rem;
     flex-direction: column;
     padding: 1rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .menuIcon {
@@ -169,15 +172,23 @@
 
 .footerContainer {
   height: 50px;
-  background-color: rgb(119, 116, 111);
-  border-top: 1px solid rgb(60, 59, 57);
+  background-color: rgb(231, 225, 215);
+  border-top: 1px solid rgb(156, 151, 151);
 }
 
 .social_icons {
-  font-size: 1rem;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  padding: .4rem;
+  padding-bottom: .6rem;
+  color:  rgb(25, 25, 25);
+  position: relative;
+}
+
+.social_icons a i {
+  color: black; /* Set the icon color to black */
+  font-size: 24px; /* Optional: adjust the size */
+  transition: color 0.3s; /* Optional: smooth hover transition */
   padding: .5rem;
-  color: rgb(236, 236, 236);
   position: relative;
 }
 

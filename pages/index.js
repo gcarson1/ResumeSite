@@ -10,9 +10,12 @@ export default function Home() {
         <title>Gabriel Carson</title>
         <link rel="icon" href="/favicon1.ico" />
       </Head>
+     <div>
+      <a href="/" className={styles.title}>fill in</a>
+     </div>
+     <div>
 
-      <a href="/" className={styles.title}>Gabriel</a>
-
+     </div>
     </div>
   );
 }
