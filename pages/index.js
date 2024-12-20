@@ -11,7 +11,8 @@ export default function Home() {
         <link rel="icon" href="/favicon1.ico" />
       </Head>
      <div>
-      <a href="/" className={styles.title}>fill in</a>
+      <a href="/" className={styles.title}>Gabriel Carson</a>
+      <a className={styles.description}>loading...</a>
      </div>
      <div>
 
