@@ -12,10 +12,10 @@ export default function Home() {
       </Head>
      <div>
       <a href="/" className={styles.title}>Gabriel Carson</a>
-      <a className={styles.description}>loading...</a>
      </div>
-     <div>
 
+     <div>
+      <a className={styles.description}>loading...</a>
      </div>
     </div>
   );
