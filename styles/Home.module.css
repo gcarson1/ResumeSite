@@ -56,8 +56,7 @@
   align-items: center;
   padding: 1rem;
   height: 10vh;
-  background-color: rgb(231, 225, 215);
-  border-bottom: 1px solid rgb(153, 150, 144);
+  background-image: linear-gradient(180deg,rgb(8, 8, 8) ,  rgb(24, 24, 24));
 }
 
 .navContent {
@@ -111,7 +110,7 @@
   padding-bottom: 50px;
   width: auto;
   height: 50px;
-  color: rgb(28, 28, 27);
+  color: rgb(189, 185, 176);
   font-size: 1.8rem;
 }
 .navButton:hover {
@@ -136,7 +135,7 @@
     font-size: 1.1rem;
     flex-direction: column;
     padding: 1rem;
-    font-family: '29lt_bukraregular';
+    font-family: 29lt_bukraregular;
   }
 
   .menuIcon {

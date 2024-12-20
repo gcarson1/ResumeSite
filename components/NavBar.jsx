@@ -42,15 +42,13 @@ const Navbar = () => {
           <Image className={styles.menuIcon} src='menu-burger-horizontal-svgrepo-com.svg' width={30} height={30} alt="Menu"/>
         </div>
         <div className={`${isOpen ? styles.showMenu : ''} ${isOpen ? styles.menuItemsVisible : styles.menuItems}`}>
-          <Link className={styles.navButton} href="../" >Home</Link>
+          <Link className={styles.navButton} href="../" >home</Link>
           <a> </a>
-          <Link className={styles.navButton} href="../resume" >Resume</Link>
+          <Link className={styles.navButton} href="" >resume</Link>
           <a> </a>
-          <Link className={styles.navButton} href="../projects" >Projects</Link>
+          <Link className={styles.navButton} href="" >projects</Link>
           <a> </a>
-          <Link className={styles.navButton} href="../contact" >Contact</Link>
-          <a> </a>
-          <Link className={styles.navButton} href="../hobbies" >Hobbies</Link>
+          <Link className={styles.navButton} href="" >contact</Link>
         </div>
       </div>
     </nav>
