@@ -136,7 +136,7 @@
     font-size: 1.1rem;
     flex-direction: column;
     padding: 1rem;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: '29lt_bukraregular';
   }
 
   .menuIcon {
@@ -158,7 +158,7 @@
 .ctaBtn {
   display: inline-flex;
   padding: 10px 2rem;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 29lt_bukraregular;
   font-size: 1.5rem;
   color: rgb(20, 20, 20);
   background-color: rgb(20, 20, 20);
