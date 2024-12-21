@@ -14,7 +14,7 @@ export default function Home() {
 
 
      <div>
-      <a href="/" className={styles.title}>I'm Gabriel...</a>
+      <a href="/" className={styles.title}>Gabriel...</a>
      </div>
 
      <div>
