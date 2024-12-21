@@ -5,8 +5,8 @@
 html,
 body {
   background-color: rgb(24, 24, 24);
-  background-image: url(../public/mountains-6754215.jpg);
-  background-repeat: no-repeat;
+  background-image: url(../public/mountains-6754215.png);
+  background-repeat: repeat;
   background-position: bottom;
   background-attachment: scroll;
   font-family: 29lt_bukraregular;
