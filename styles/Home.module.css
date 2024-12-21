@@ -81,7 +81,7 @@
   width: 100vw; /* Full viewport width */
   background-color: rgba(32, 32, 32, 0.926);
   font-size: 1.4rem;
-  height: 55.2rem;
+  height: 23rem;
   position:absolute;
   top: 5vh; /* Adjust this value to create the gap at the top */
   left: 0; /* Align to the left of the viewport */
