@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon1.ico" />
       </Head>
      <div>
-      <a href="/" className={styles.title}>i'm gabe</a>
+      <a href="/" className={styles.title}>404 ;)</a>
      </div>
 
      <div>
