@@ -1,5 +1,5 @@
-.container {
-  min-height: 314vh;
+.home {
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   align-items: center;
