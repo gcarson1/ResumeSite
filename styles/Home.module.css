@@ -11,7 +11,7 @@
 }
 
 .skills {
-  background-color:rgb(63, 63, 63);
+  background-image:linear-gradient(-25deg, rgb(75, 75, 75), rgb(100, 100, 100));
   min-height: 50vh;
   display: flex;
   margin-left: 10%;
@@ -56,10 +56,7 @@
   height: 5vh;
   background-image: linear-gradient(180deg,rgb(8, 8, 8) ,  rgba(24, 24, 24, 0.956));
   text-align: center;
-  position: fixed;
-  box-shadow: 0px 1px 5px 5px rgba(18, 18, 18, 0.732);
-
-
+  box-shadow: 0px 1px 5px 3px rgba(18, 18, 18, 0.732);
 }
 
 .menuIcon {
@@ -89,11 +86,12 @@
   width: 100vw; /* Full viewport width */
   background-color: rgba(32, 32, 32, 0.672);
   height: 23rem;
-  position:absolute;
+  position:fixed;
   top: 5vh; /* Adjust this value to create the gap at the top */
   left: 0; /* Align to the left of the viewport */
   z-index: 999; /* Ensure it is above other elements */
   overflow-y:auto; /* Enable scrolling if content overflows */
+  box-shadow: 0px 1px 5px 3px rgba(16, 16, 16, 0.391);
 }
 
 .navButton {
@@ -123,6 +121,10 @@
     display:static;
   }
 
+  .navContainer {
+    position: fixed;
+  }
+
   .menuItemsVisible {
     display: flex;
     flex-direction: column;
@@ -130,11 +132,13 @@
   }
 
   .menuIcon {
-    display: block; /* Shown on smaller screens */
-    height: 2.5rem;
+    display:grid;/* Shown on smaller screens */
     width: 2.5rem;
-    padding-top: 1.65rem;
+    position:absolute;
+    padding-right: 3px;
     z-index: 1010;
+    padding-bottom: 2.3rem;
+    
   }
 }
 
