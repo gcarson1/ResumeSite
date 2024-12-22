@@ -24,22 +24,36 @@ export default function Home() {
 
      </div>
 
-     <div>
-      <a href="/" className={styles.title}>Skills</a>
+     <div className={styles.skills}>
+
+      <div>
+        <a href="/" className={styles.title}>Skills</a>
+      </div>
+
      </div>
+
+    <div className={styles.skills}>
 
      <div>
       <a href="/" className={styles.title}>Projects</a>
      </div>
 
+    </div>
 
-     <div>
-      <a href="/" className={styles.title}>Experience</a>
+    <div className={styles.skills}>
+
+      <div>
+        <a href="/" className={styles.title}>Experience</a>
+      </div>
+
      </div>
 
+     <div className={styles.home}>
 
-     <div>
-      <a href="/" className={styles.title}>Resume</a>
+      <div>
+        <a href="/" className={styles.title}>Resume</a>
+      </div>
+
      </div>
 
     </div>

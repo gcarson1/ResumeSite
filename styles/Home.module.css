@@ -1,4 +1,16 @@
 .home {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.skills {
+  background-color:rgb(63, 63, 63);
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -7,6 +19,7 @@
   padding-right: 15%;
   padding-top: 5rem;
   text-align: center;
+  outline: 1px solid rgb(87, 87, 87);
 }
 
 .title {
