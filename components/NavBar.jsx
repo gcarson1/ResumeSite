@@ -37,9 +37,8 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navContainer}>
-      <div className={styles.navContent}>
         <div className={styles.menuIcon} onClick={toggleMenu}>
-          <Image className={styles.menuIcon} src='menu-burger-horizontal-svgrepo-com.svg' width={30} height={30} alt="Menu"/>
+          <Image className={styles.menuIcon} src='menu-burger-horizontal-svgrepo-com.svg' width={33} height={33} alt="Menu"/>
         </div>
         <div className={`${isOpen ? styles.showMenu : ''} ${isOpen ? styles.menuItemsVisible : styles.menuItems}`}>
           <Link className={styles.navButton} href="#gabe" >gabe</Link>
@@ -52,7 +51,6 @@ const Navbar = () => {
           <a> </a>
           <Link className={styles.navButton} href="#resume" >resume</Link>
         </div>
-      </div>
     </nav>
   );
 };
