@@ -48,7 +48,7 @@ export default function Home() {
 
      </div>
 
-     <div id="resume" className={styles.home}>
+     <div id="resume" className={styles.skills}>
 
       <div>
         <a href="/" className={styles.title}>Resume</a>
