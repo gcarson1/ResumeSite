@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon1.ico" />
       </Head>
 
-      <div className={styles.home}>
+      <div id="gabe" className={styles.home}>
 
       <div>
         <a href="/" className={styles.title}>Gabriel...</a>
@@ -24,7 +24,7 @@ export default function Home() {
 
      </div>
 
-     <div className={styles.skills}>
+     <div id="skills" className={styles.skills}>
 
       <div>
         <a href="/" className={styles.title}>Skills</a>
@@ -32,7 +32,7 @@ export default function Home() {
 
      </div>
 
-    <div className={styles.skills}>
+    <div id="projects" className={styles.skills}>
 
      <div>
       <a href="/" className={styles.title}>Projects</a>
@@ -40,7 +40,7 @@ export default function Home() {
 
     </div>
 
-    <div className={styles.skills}>
+    <div id="experience" className={styles.skills}>
 
       <div>
         <a href="/" className={styles.title}>Experience</a>
@@ -48,7 +48,7 @@ export default function Home() {
 
      </div>
 
-     <div className={styles.home}>
+     <div id="resume" className={styles.home}>
 
       <div>
         <a href="/" className={styles.title}>Resume</a>
