@@ -74,6 +74,10 @@ export default function Home() {
         <a href="/" className={styles.title}>Experience</a>
       </div>
 
+      <img src="University - HorizLeftLogo-OnDark (RGB).png" width="200"/>
+
+      <img src="OLCF_official_white_10_26_15.png" width="205"/>
+
      </div>
 
      <div id="resume" className={styles.skills}>
