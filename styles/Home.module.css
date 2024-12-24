@@ -30,12 +30,15 @@
 .title {
   font-size: 3.8rem;
   color: rgb(215, 215, 214);
+  align-self: center;
   font-weight: 200;
   text-shadow: 0px 2px 3px rgb(40, 40, 40);
+  transition: transform 0.3s ease;
 }
 
 .title:hover {
   color: rgb(255, 255, 255);
+  transform: scale(1.1);
 }
 
 .description {
@@ -165,20 +168,25 @@
 
 
 .gallery {
-  margin: 1rem;
-  align-self: left;
-  width: 5rem;
-  align-items: left;
-  align-content: left;
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  align-items: center; /* Align images vertically */
+  gap: 2rem; /* Add spacing between images */
+  margin-top: 2rem; /* Space between title and images */
+  flex-wrap: wrap; /* Allow wrapping if screen is too small */
 }
 
-.gallery:hover {
-  margin-left: 1.5rem;
+.galleryLogo {
+  max-width: 80px; /* Set a maximum width for each image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Optional: Add rounded corners */
+  transition: transform 0.2s ease; /* Optional: Add hover effect */
 }
 
-.gallery img {
-  align-self: left;
+.galleryLogo:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
 }
+
 
 .desc {
   padding: 15px;
@@ -189,6 +197,10 @@
   align-self: center;
   width: 50px;
   margin: 1rem;
+}
 
+.experienceLogo {
+
+  margin: 2rem;
 
 }
