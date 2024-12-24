@@ -31,7 +31,7 @@ export default function Home() {
       </div>
 
       <div className={styles.gallery}>
-          <img src="C_logo.png"/>
+          <img src="c_logo_icon.png"/>
       </div>
 
       <div className={styles.gallery}>
@@ -39,7 +39,7 @@ export default function Home() {
       </div>
 
       <div className={styles.gallery}>
-          <img src="azure.png"/>
+          <img src="azure_logo_icon.png"/>
       </div>
 
       <div className={styles.gallery}>
@@ -51,7 +51,7 @@ export default function Home() {
       </div>
 
       <div className={styles.gallery}>
-          <img src="terraform.png" />
+          <img src="/terraform.png" />
       </div>
 
       <div className={styles.gallery}>
