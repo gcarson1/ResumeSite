@@ -10,7 +10,7 @@
 
 .skills {
   background-image:linear-gradient(-25deg, rgba(24, 24, 24, 0.945), rgb(48, 48, 48));
-  min-height: 50vh;
+  min-height: 30vh;
   display: flex;
   margin-left: 10%;
   margin-right: 10%;
@@ -20,7 +20,7 @@
   padding-left: 8%;
   padding-right: 8%;
   padding-top: 3rem;
-  padding-bottom: 5rem;
+  padding-bottom: 4rem;
   text-align: center;
   /*outline: 1px solid rgb(87, 87, 87);*/
   box-shadow: 0px 3px 9px 4px rgb(20, 20, 20);
@@ -183,4 +183,12 @@
 .desc {
   padding: 15px;
   text-align: center;
+}
+
+.resumedownload {
+  align-self: center;
+  width: 50px;
+  margin: 1rem;
+
+
 }

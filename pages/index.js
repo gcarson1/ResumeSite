@@ -82,6 +82,11 @@ export default function Home() {
         <a href="/" className={styles.title}>Resume</a>
       </div>
 
+      <a className={styles.description}>Download Below</a>
+
+      <a href="/" className={styles.resumedownload}> 
+      <img  src="Internet-Network-Download--Streamline-Pixel (1).svg" width="50"></img>
+      </a>
      </div>
 
     </div>
