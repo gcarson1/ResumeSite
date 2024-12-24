@@ -26,6 +26,8 @@ const Footer = () => {
             >
               <i className="fa-brands fa-linkedin"></i>
             </a>
+
+            <a> Made With These Fingers</a>
           </div>
         </div>
       </>
