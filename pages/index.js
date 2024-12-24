@@ -61,7 +61,9 @@ export default function Home() {
         <div>
           <a className={styles.title}>Resume</a>
         </div>
-        <a className={styles.description}>Download Below</a>
+        <div className={styles.description}>
+          <a>Download Below</a>
+        </div>
         <a className={styles.resumedownload}>
           <img src="Internet-Network-Download--Streamline-Pixel (1).svg" width="50" alt="Download Icon" />
         </a>
