@@ -43,7 +43,7 @@ export default function Home() {
       </div>
 
       <div className={styles.gallery}>
-          <img src="Microsoft_Purview_logo.svg.png"/>
+          <img src="purview_logo_icon.png"/>
       </div>
 
       <div className={styles.gallery}>
