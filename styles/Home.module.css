@@ -2,14 +2,14 @@
   min-height: 40vh;
   display: flex;
   flex-direction: column;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 5rem;
   margin-bottom: 50px;
 }
 
 .skills {
-  background-image:linear-gradient(-25deg, rgb(24, 24, 24), rgb(30, 30, 30));
+  background-image:linear-gradient(-25deg, rgba(24, 24, 24, 0.945), rgb(48, 48, 48));
   min-height: 50vh;
   display: flex;
   margin-left: 10%;
@@ -30,7 +30,7 @@
 .title {
   line-height: 150px;
   font-size: 3.8rem;
-  color: rgb(196, 196, 196);
+  color: rgb(215, 215, 214);
   font-weight: 200;
   text-shadow: 0px 2px 3px rgb(40, 40, 40);
 }
@@ -42,7 +42,7 @@
 .description {
   line-height: 2rem;
   font-size: 1.2rem;
-  color: rgb(124, 124, 124);
+  color: rgb(138, 138, 138);
   padding: .25rem;
   font-weight: 270;
 }
