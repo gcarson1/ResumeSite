@@ -30,6 +30,34 @@ export default function Home() {
         <a href="/" className={styles.title}>Skills</a>
       </div>
 
+      <div className={styles.gallery}>
+          <img src="C_logo.png"/>
+      </div>
+
+      <div className={styles.gallery}>
+          <img src="13841574.png"/>
+      </div>
+
+      <div className={styles.gallery}>
+          <img src="azure.png"/>
+      </div>
+
+      <div className={styles.gallery}>
+          <img src="Microsoft_Purview_logo.svg.png"/>
+      </div>
+
+      <div className={styles.gallery}>
+          <img src="Python-logo-notext.svg.png"/>
+      </div>
+
+      <div className={styles.gallery}>
+          <img src="terraform.png" />
+      </div>
+
+      <div className={styles.gallery}>
+          <img src="next-js.svg" />          
+      </div>
+
      </div>
 
     <div id="projects" className={styles.skills}>
