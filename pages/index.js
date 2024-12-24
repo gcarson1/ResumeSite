@@ -15,7 +15,7 @@ export default function Home() {
       <div id="gabe" className={styles.home}>
 
       <div>
-        <a href="/" className={styles.title}>Gabriel...</a>
+        <a href="/" className={styles.title}>Hi, I'm Gabriel</a>
       </div>
 
       <div>
