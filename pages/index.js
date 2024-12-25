@@ -44,11 +44,26 @@ export default function Home() {
           <a className={styles.title}>Projects</a>
         </div>
 
-        <div className={styles.gallery}>
-          <img src="streamline-ultimate-regular---free--24x24-SVG/Cloud-Add--Streamline-Ultimate.svg" alt="C Logo" className={styles.galleryLogo} />
-          <img src="streamline-ultimate-regular---free--24x24-SVG/Fiber-Access-1--Streamline-Ultimate.svg" alt="c++ Logo" className={styles.galleryLogo} />
-          <img src="streamline-ultimate-regular---free--24x24-SVG/Help-Question-Network--Streamline-Ultimate.svg" alt="Python Logo" className={styles.galleryLogo} />
-          <img src="streamline-ultimate-regular---free--24x24-SVG/Lock-Hierarchy--Streamline-Ultimate.svg" alt="Purview Logo" className={styles.galleryLogo} />
+        <div className={styles.projectGallery}>
+          <div className={styles.projectSubject}>
+            <img src="streamline-ultimate-regular---free--24x24-SVG/Cloud-Add--Streamline-Ultimate.svg" alt="C Logo"/>
+            <a> Cloud </a>
+          </div>
+
+          <div className={styles.projectSubject}>
+            <img src="streamline-ultimate-regular---free--24x24-SVG/Fiber-Access-1--Streamline-Ultimate.svg" alt="c++ Logo" />
+            <a> Systems Programming </a>
+          </div>
+
+          <div className={styles.projectSubject}>
+            <img src="streamline-ultimate-regular---free--24x24-SVG/Help-Question-Network--Streamline-Ultimate.svg" alt="Python Logo"/>
+            <a> Machine Learning </a>
+          </div>
+
+          <div className={styles.projectSubject}>
+            <img src="streamline-ultimate-regular---free--24x24-SVG/Lock-Hierarchy--Streamline-Ultimate.svg" alt="Purview Logo" />
+            <a> CyberSec </a>
+          </div>        
         </div>
 
       </div>
