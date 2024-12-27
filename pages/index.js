@@ -63,7 +63,15 @@ export default function Home() {
           <div className={styles.projectSubject}>
             <img src="streamline-ultimate-regular---free--24x24-SVG/Lock-Hierarchy--Streamline-Ultimate.svg" alt="Purview Logo" />
             <a> CyberSec </a>
-          </div>        
+          </div> 
+          <button class="dropdown-btn">Dropdown
+          <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>       
         </div>
 
       </div>
