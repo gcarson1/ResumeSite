@@ -11,7 +11,7 @@
 }
 
 .skills {
-  background-image:linear-gradient(-25deg, rgba(24, 24, 24, 0.945), rgb(48, 48, 48));
+  background-image:linear-gradient(-25deg, rgb(12, 12, 12), rgb(20, 20, 20));
   min-height: 30vh;
   display: flex;
   margin-left: 7%;
@@ -27,7 +27,7 @@
   align-items: center;;
   align-content: center;
   /*outline: 1px solid rgb(87, 87, 87);*/
-  box-shadow: 0px 3px 9px 4px rgb(20, 20, 20);
+  box-shadow: 2px 3px 9px 4px rgb(9, 9, 9);
 
 }
 
@@ -36,7 +36,7 @@
   color: rgb(215, 215, 214);
   align-self: center;
   font-weight: 200;
-  text-shadow: 0px 2px 3px rgb(40, 40, 40);
+  text-shadow: 0px 2px 3px rgb(8, 8, 8);
   transition: transform 0.3s ease;
 }
 
@@ -63,9 +63,9 @@
   padding: 1rem;
   padding-left: 2rem;
   height: 6vh;
-  background-image: linear-gradient(180deg,rgb(17, 17, 17) ,  rgba(24, 24, 24, 0.956));
+  background-image: linear-gradient(180deg,rgb(8, 8, 8) ,  rgba(15, 15, 15, 0.956));
   text-align: center;
-  box-shadow: 0px 1px 5px 3px rgb(17, 17, 17);
+  box-shadow: 0px 1px 5px 3px rgb(9, 9, 9);
   position:fixed;
 }
 
@@ -94,14 +94,14 @@
   display: none; /* Shown when menu is toggled */
   flex-direction: column;
   width: 100vw; /* Full viewport width */
-  background-color: rgba(32, 32, 32, 0.802);
+  background-color: rgba(6, 6, 6, 0.802);
   height: 23rem;
   position:fixed;
   top: 6vh; /* Adjust this value to create the gap at the top */
   left: 0; /* Align to the left of the viewport */
   z-index: 999; /* Ensure it is above other elements */
   overflow-y:auto; /* Enable scrolling if content overflows */
-  box-shadow: 0px 1px 5px 3px rgba(16, 16, 16, 0.391);
+  box-shadow: 0px 1px 5px 3px rgba(10, 10, 10, 0.391);
 }
 
 .navButton {
@@ -152,8 +152,8 @@
 
 .footerContainer {
   height: 3rem;
-  background-image: linear-gradient(180deg,rgb(24, 24, 24) ,  rgb(37, 37, 37));
-  border-top: 1px solid rgb(83, 83, 83);
+  background-image: linear-gradient(180deg,rgb(8, 8, 8) ,  rgb(18, 18, 18));
+  border-top: 1px solid rgb(0, 0, 0);
   padding-left: 10vh;
   padding-top: .3rem;
 }
@@ -230,28 +230,4 @@
   gap: 1rem;
   font-size: 16px;
   color: rgb(178, 178, 178);
-}
-
-.dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width:100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
-}
-
-.dropdown-btn:hover {
-  color: #f1f1f1;
-}
-
-.dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
 }
