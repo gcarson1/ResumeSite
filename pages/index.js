@@ -84,10 +84,10 @@ export default function Home() {
           <a className={styles.title}>Resume</a>
         </div>
         <div className={styles.description}>
-          <a>Download Below</a>
+          <a>Click Below to View</a>
         </div>
-        <a className={styles.resumedownload}>
-          <img src="streamline-ultimate-regular---free--24x24-SVG/Laptop-Download--Streamline-Ultimate.svg" width="50" alt="Download Icon" />
+        <a href="Copy of Resume.pdf" className={styles.resumedownload} target='_blank'>
+          <img src="Business-User-Curriculum--Streamline-Core.png" width="50" alt="Download Icon" />
         </a>
       </div>
     </div>
