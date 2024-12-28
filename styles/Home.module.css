@@ -19,8 +19,8 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   flex-direction: column;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 3%;
+  padding-right: 3%;
   padding-top: 3rem;
   padding-bottom: 4rem;
   text-align: center;
@@ -205,7 +205,7 @@
 .resumedownload {
   align-self: center;
   width: 35px;
-  margin: 2rem;
+  margin-top: 3rem;
 }
 
 .experienceLogo {
@@ -228,7 +228,7 @@
   gap: 2rem; /* Add spacing between images */
   margin-top: 2rem; /* Space between title and images */
   flex-wrap: wrap; /* Allow wrapping if screen is too small */
-  max-width: 80%;
+  max-width: 95%;
 }
 
 .projectSubject {
