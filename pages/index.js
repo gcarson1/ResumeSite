@@ -84,7 +84,7 @@ export default function Home() {
         <div className={styles.experienceLogo}>
           <img src="OLCF_official_white_10_26_15.png" width="205" alt="OLCF Logo" />
           <a className={styles.desc}>
-          Jun '24 - Current / Cloud Engineering Intern
+          Jun '24 - Current / Azure Cloud Engineer Intern
           </a>
         </div>
 
