@@ -40,8 +40,8 @@ export default function Home() {
       </div>
 
       <div id="projects" className={styles.skills}>
-        <div>
-          <a className={styles.title}>Projects</a>
+        <div className={styles.title}>
+          <a>Projects</a>
         </div>
 
         <div className={styles.projectGallery}>
@@ -68,8 +68,8 @@ export default function Home() {
       </div>
 
       <div id="experience" className={styles.skills}>
-        <div>
-          <a className={styles.title}>Experience</a>
+        <div className={styles.title}>
+          <a>Experience</a>
         </div>
 
         <div className={styles.projectGallery}>
@@ -93,8 +93,8 @@ export default function Home() {
       </div>
 
       <div id="resume" className={styles.skills}>
-        <div>
-          <a className={styles.title}>Resume</a>
+        <div  className={styles.title}>
+          <a>Resume</a>
         </div>
         <div className={styles.description}>
           <a>Click Below to View</a>
