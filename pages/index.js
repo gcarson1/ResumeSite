@@ -71,12 +71,25 @@ export default function Home() {
         <div>
           <a className={styles.title}>Experience</a>
         </div>
-        <a className={styles.experienceLogo}>
+
+        <div className={styles.projectGallery}>
+
+        <div className={styles.experienceLogo}>
           <img src="University - HorizLeftLogo-OnDark (RGB).png" width="200" alt="University Logo" />
-        </a>
-        <a className={styles.experienceLogo}>
+          <a className={styles.desc}>
+          Jan '22 - Current / Bachelor or Science in Computer Science
+          </a>
+        </div>
+
+        <div className={styles.experienceLogo}>
           <img src="OLCF_official_white_10_26_15.png" width="205" alt="OLCF Logo" />
-        </a>
+          <a className={styles.desc}>
+          Jun '24 - Current / Cloud Engineering Intern
+          </a>
+        </div>
+
+        </div>
+
       </div>
 
       <div id="resume" className={styles.skills}>
