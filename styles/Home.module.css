@@ -175,21 +175,24 @@
 
 
 .gallery {
-  display: flex;
+  display: column;
   justify-content: center; /* Center images horizontally */
   align-items: center; /* Align images vertically */
   gap: 2rem; /* Add spacing between images */
   margin-top: 2rem; /* Space between title and images */
-  flex-wrap: wrap; /* Allow wrapping if screen is too small */
   max-width: 80%;
 }
 
 .galleryLogo {
-  max-width: 90px; /* Set a maximum width for each image */
-  min-width: 40px;
+  margin: 2rem;
+  display: flex;
+  gap: 1rem;
   height: auto; /* Maintain aspect ratio */
   border-radius: 5px; /* Optional: Add rounded corners */
   transition: transform 0.2s ease; /* Optional: Add hover effect */
+  color: rgb(128, 128, 128);
+  font-size: 1.1rem;
+  background-color: black;
 }
 
 .galleryLogo:hover {
@@ -219,6 +222,7 @@
 }
 
 .experienceLogo {
+  z-index: 1;
   margin-top: 2rem;
   min-height: 8rem;
   padding: 1rem;

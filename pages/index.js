@@ -29,13 +29,41 @@ export default function Home() {
 
         {/* Optimized Gallery */}
         <div className={styles.gallery}>
-          <img src="c_logo_icon.png" alt="C Logo" className={styles.galleryLogo} />
-          <img src="13841574.png" alt="c++ Logo" className={styles.galleryLogo} />
-          <img src="Python-logo-notext.svg.png" alt="Python Logo" className={styles.galleryLogo} />
-          <img src="azure_logo_icon.png" alt="Azure Logo" className={styles.galleryLogo} />
-          <img src="purview_logo_icon.png" alt="Purview Logo" className={styles.galleryLogo} />
-          <img src="/terraform.png" alt="Terraform Logo" className={styles.galleryLogo} />
-          <img src="next-js.svg" alt="Next.js Logo" className={styles.galleryLogo} />
+
+        <div className={styles.galleryLogo}>
+          <img src="c_logo_icon.png" alt="C Logo" width="90px" />
+          <a>Hi</a>
+        </div>
+
+        <div className={styles.galleryLogo}>
+          <img src="13841574.png" alt="c++ Logo" width="90px" />
+          <a>Hi</a>
+        </div>
+
+        <div className={styles.galleryLogo}>
+          <img src="Python-logo-notext.svg.png" alt="Python Logo" width="90px" />
+          <a>Hi</a>
+        </div>
+
+        <div className={styles.galleryLogo}>
+          <img src="azure_logo_icon.png" alt="Azure Logo"width="90px" />
+          <a>Hi</a>
+        </div>
+
+        <div className={styles.galleryLogo}>
+          <img src="purview_logo_icon.png" alt="Purview Logo"width="90px" />
+          <a>Hi</a>
+        </div>
+
+        <div className={styles.galleryLogo}>
+          <img src="/terraform.png" alt="Terraform Logo"width="90px" />
+          <a>Hi</a>
+        </div>
+
+        <div className={styles.galleryLogo}>
+          <img src="next-js.svg" alt="Next.js Logo"width="90px"/>
+          <a>Hi</a>
+        </div>
         </div>
       </div>
 
