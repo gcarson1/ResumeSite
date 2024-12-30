@@ -13,7 +13,7 @@
 .skills {
   background-image:linear-gradient(-25deg, rgb(15, 15, 15), rgb(24, 24, 24));
   min-height: 30vh;
-  max-height: 75vh;
+  max-height: 70vh;
   overflow: auto;
   display: flex;
   margin-left: 7%;
@@ -247,7 +247,6 @@
 .projectGallery {
   justify-content: center; /* Center images horizontally */
   gap: 2rem; /* Add spacing between images */
-  margin-top: 2rem; /* Space between title and images */
   flex-wrap: wrap; /* Allow wrapping if screen is too small */
   max-width: 95%;
 }
