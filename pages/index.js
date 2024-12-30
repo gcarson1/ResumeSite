@@ -17,8 +17,7 @@ export default function Home() {
         </div>
         <div>
           <a className={styles.description}>
-            I am a Computer Science student at The University of Tennessee-Knoxville graduating in December 2025. I have professional experience in Cloud Development and Data Governance. I also enjoy digital audio software stemming from my hobby of music production. I like the outdoors, basketball, cooking, and obviously video games.
-          </a>
+            Hi, I'm Gabriel Carson, a tech enthusiast passionate about building innovative solutions that blend cloud technologies, AI, and cybersecurity. With experience in Azure-based data analytics, Infrastructure as Code (IaC), and hands-on projects in machine learning and secure web development, I thrive on solving complex problems and delivering impactful results. I'm excited to contribute my skills to create cutting-edge technologies that shape the future.          </a>
         </div>
       </div>
 
