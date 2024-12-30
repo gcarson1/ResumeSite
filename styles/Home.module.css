@@ -13,6 +13,8 @@
 .skills {
   background-image:linear-gradient(-25deg, rgb(12, 12, 12), rgb(20, 20, 20));
   min-height: 30vh;
+  max-height: 75vh;
+  overflow: auto;
   display: flex;
   margin-left: 7%;
   margin-right: 7%;
@@ -180,7 +182,7 @@
   align-items: center; /* Align images vertically */
   gap: 2rem; /* Add spacing between images */
   margin-top: 2rem; /* Space between title and images */
-  max-width: 80%;
+  width: 90%;
 }
 
 .galleryLogo {
@@ -190,9 +192,13 @@
   height: auto; /* Maintain aspect ratio */
   border-radius: 5px; /* Optional: Add rounded corners */
   transition: transform 0.2s ease; /* Optional: Add hover effect */
-  color: rgb(128, 128, 128);
+  color: rgb(80, 80, 80);
   font-size: 1.1rem;
-  background-color: black;
+  width:auto;
+  background-color: rgba(48, 48, 48, 0);
+  padding-left: 1.5rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .galleryLogo:hover {
@@ -256,4 +262,63 @@
   gap: 1rem;
   font-size: 16px;
   color: rgb(178, 178, 178);
+}
+
+/* Make sure that padding behaves as expected */
+
+/* Container for skill bars */
+.containers {
+  width: 70%; /* Full width */
+  background-color: #424242; /* Grey background */
+  height: 35px;
+  margin: 1.75rem;
+}
+
+.skillLogo {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: rgb(248, 120, 29); /* White text color */
+}
+
+.c {
+  width: 80%;
+  height: 35px;
+  background-color: rgb(178, 178, 178);
+  padding: .25rem;
+}
+
+.cpp {
+  width: 90%;
+  height: 35px;
+  background-color: rgb(178, 178, 178);
+  padding: .25rem;
+}
+
+.python {
+  width: 75%;
+  height: 35px;
+  background-color: rgb(178, 178, 178);
+  padding: .25rem;
+}
+
+.azure {
+  width: 90%;
+  height: 35px;
+  background-color: rgb(178, 178, 178);
+  padding: .25rem;
+}
+
+.terraform {
+  width: 70%;
+  height: 35px;
+  background-color: rgb(178, 178, 178);
+  padding: .25rem;
+}
+
+.js {
+  width: 70%;
+  height: 35px;
+  background-color: rgb(178, 178, 178);
+  padding: .25rem;
 }

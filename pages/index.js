@@ -27,42 +27,49 @@ export default function Home() {
           <a>Skills</a>
         </div>
 
-        {/* Optimized Gallery */}
         <div className={styles.gallery}>
 
         <div className={styles.galleryLogo}>
           <img src="c_logo_icon.png" alt="C Logo" width="90px" />
-          <a>Hi</a>
+          <div className={styles.containers}>
+            <div className={styles.c}>80%</div>
+          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="13841574.png" alt="c++ Logo" width="90px" />
-          <a>Hi</a>
+          <div className={styles.containers}>
+            <div className={styles.cpp}>90%</div>
+          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="Python-logo-notext.svg.png" alt="Python Logo" width="90px" />
-          <a>Hi</a>
+          <div className={styles.containers}>
+            <div className={styles.python}>75%</div>
+          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="azure_logo_icon.png" alt="Azure Logo"width="90px" />
-          <a>Hi</a>
-        </div>
-
-        <div className={styles.galleryLogo}>
-          <img src="purview_logo_icon.png" alt="Purview Logo"width="90px" />
-          <a>Hi</a>
+          <div className={styles.containers}>
+            <div className={styles.azure}>90%</div>
+          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="/terraform.png" alt="Terraform Logo"width="90px" />
-          <a>Hi</a>
+          <div className={styles.containers}>
+            <div className={styles.terraform}>70%</div>
+          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="next-js.svg" alt="Next.js Logo"width="90px"/>
-          <a>Hi</a>
+          <div className={styles.containers}>
+            <div className={styles.js}>70%</div>
+          </div>
+
         </div>
         </div>
       </div>
