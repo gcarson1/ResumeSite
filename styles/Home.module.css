@@ -30,7 +30,7 @@
   align-content: center;
   /*outline: 1px solid rgb(87, 87, 87);*/
   box-shadow: 2px 3px 9px 4px rgb(9, 9, 9);
-
+  border-radius: 7px;
 }
 
 .title {
@@ -188,9 +188,9 @@
 .galleryLogo {
   margin: 2rem;
   display: flex;
+  
   gap: 1rem;
   height: auto; /* Maintain aspect ratio */
-  border-radius: 5px; /* Optional: Add rounded corners */
   transition: transform 0.2s ease; /* Optional: Add hover effect */
   color: rgb(80, 80, 80);
   font-size: 1.1rem;
@@ -220,6 +220,7 @@
   background-image: linear-gradient(-45deg, rgb(12, 12, 12), rgb(31, 31, 31));
   border: 2px solid rgb(74, 74, 74);
   transition: transform 0.15s ease;
+  border-radius: 7px;
 }
 
 .resumedownload:hover {
@@ -240,7 +241,7 @@
   align-items: row;
   background-image: linear-gradient(-45deg,rgb(18, 18, 18) ,  rgb(28, 28, 28));
   box-shadow: 0px 2px 5px  3px rgb(13, 13, 13) ;
-
+  border-radius: 7px;
 }
 
 .projectGallery {
@@ -272,6 +273,9 @@
   background-color: #424242; /* Grey background */
   height: 35px;
   margin: 1.75rem;
+  display: flex;
+  border-radius: 7px; /* Optional: Add rounded corners */
+
 }
 
 .skillLogo {
@@ -286,6 +290,7 @@
   height: 35px;
   background-color: rgb(178, 178, 178);
   padding: .25rem;
+  border-radius: 7px;
 }
 
 .cpp {
@@ -293,6 +298,7 @@
   height: 35px;
   background-color: rgb(178, 178, 178);
   padding: .25rem;
+  border-radius: 7px;
 }
 
 .python {
@@ -300,6 +306,7 @@
   height: 35px;
   background-color: rgb(178, 178, 178);
   padding: .25rem;
+  border-radius: 7px;
 }
 
 .azure {
@@ -307,6 +314,7 @@
   height: 35px;
   background-color: rgb(178, 178, 178);
   padding: .25rem;
+  border-radius: 7px;
 }
 
 .terraform {
@@ -314,6 +322,7 @@
   height: 35px;
   background-color: rgb(178, 178, 178);
   padding: .25rem;
+  border-radius: 7px;
 }
 
 .js {
@@ -321,4 +330,5 @@
   height: 35px;
   background-color: rgb(178, 178, 178);
   padding: .25rem;
+  border-radius: 7px;
 }
