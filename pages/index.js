@@ -66,10 +66,16 @@ export default function Home() {
         <div className={styles.title}>
           <a>Projects</a>
         </div>
+        <div className={styles.description}>
+          <p>Click On a Projects Preview Image to Learn More About It!</p>
+        </div>
 
         <div className={styles.projectGallery}>
           <div className={styles.projectSubject}>
-            <img src="ResumeSite.png" width="256px"/>
+            <a href="https://github.com/gcarson1/ResumeSite" target="_blank" rel="noopener noreferrer">
+              <img className={styles.projectImage} src="ResumeSite.png" width="256px" alt="Resume Site Preview" />
+            </a>
+            <p className={styles.projectDescription}>This is my personal Portfolio and Digital Resume</p>
           </div>
 
           <div className={styles.projectSubject}>
