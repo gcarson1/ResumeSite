@@ -12,6 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon1.ico" />
     </Head>
 
+    
+
     <div id="gabe" className={styles.home}>
         <div>
           <a className={styles.title}>Hi, I'm Gabriel</a>
@@ -23,6 +25,8 @@ export default function Home() {
         </div>
 
     </div>
+
+
 
     <div id="skills" className={styles.skills}>
         <div className={styles.title}>
@@ -56,6 +60,8 @@ export default function Home() {
         </div>
     </div>
 
+
+
     <div id="projects" className={styles.skills}>
         <div className={styles.title}>
           <a>Projects</a>
@@ -84,6 +90,8 @@ export default function Home() {
         </div>
     </div>
 
+
+
     <div id="experience" className={styles.skills}>
         <div className={styles.title}>
           <a>Experience</a>
@@ -106,6 +114,8 @@ export default function Home() {
         </div>
     </div>
 
+
+
     <div id="resume" className={styles.skills}>
         <div  className={styles.title}>
           <a>Resume</a>
@@ -120,5 +130,6 @@ export default function Home() {
         </a>
     </div>
   </div>
+
   );
 }
