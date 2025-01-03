@@ -303,7 +303,8 @@
 
   
   .home {
-    min-width: 70%;
+
+    max-width: 100%;
     padding-left: 5%;
   }
 
