@@ -5,120 +5,120 @@ import styles from '../styles/Home.module.css';
 export default function Home() {
   return (
     
-    <div>
-      <Head>
+  <div>
+
+    <Head>
         <title>Gabriel Carson</title>
         <link rel="icon" href="/favicon1.ico" />
-      </Head>
+    </Head>
 
-      <div id="gabe" className={styles.home}>
+    <div id="gabe" className={styles.home}>
         <div>
           <a className={styles.title}>Hi, I'm Gabriel</a>
         </div>
+
         <div>
           <a className={styles.description}>
-            Hi, I'm Gabriel Carson, a tech enthusiast passionate about building innovative solutions that blend cloud technologies, AI, and cybersecurity. With experience in Azure-based data analytics, Infrastructure as Code (IaC), and hands-on projects in machine learning and secure web development, I thrive on solving complex problems and delivering impactful results. I'm excited to contribute my skills to create cutting-edge technologies that shape the future.          </a>
+          Hi, I'm Gabriel Carson, a tech enthusiast passionate about building innovative solutions that blend cloud technologies, AI, and cybersecurity. With experience in Azure-based data analytics, Infrastructure as Code (IaC), and hands-on projects in machine learning and secure web development, I thrive on solving complex problems and delivering impactful results. I'm excited to contribute my skills to create cutting-edge technologies that shape the future.          </a>
         </div>
-      </div>
 
-      <div id="skills" className={styles.skills}>
+    </div>
+
+    <div id="skills" className={styles.skills}>
         <div className={styles.title}>
           <a>Skills</a>
         </div>
 
         <div className={styles.gallery}>
+          <div className={styles.galleryLogo}>
+              <img src="c_logo_icon.png" alt="C Logo" width="90px" />
+          </div>
 
-        <div className={styles.galleryLogo}>
-          <img src="c_logo_icon.png" alt="C Logo" width="90px" />
+          <div className={styles.galleryLogo}>
+              <img src="13841574.png" alt="c++ Logo" width="90px" />
+          </div>
+
+          <div className={styles.galleryLogo}>
+              <img src="Python-logo-notext.svg.png" alt="Python Logo" width="90px" />
+          </div>
+
+          <div className={styles.galleryLogo}>
+              <img src="azure_logo_icon.png" alt="Azure Logo"width="90px" />
+          </div>
+
+          <div className={styles.galleryLogo}>
+              <img src="/terraform.png" alt="Terraform Logo"width="90px" />
+          </div>
+
+          <div className={styles.galleryLogo}>
+              <img src="next-js.svg" alt="Next.js Logo"width="90px"/>
+          </div>
         </div>
+    </div>
 
-        <div className={styles.galleryLogo}>
-          <img src="13841574.png" alt="c++ Logo" width="90px" />
-        </div>
-
-        <div className={styles.galleryLogo}>
-          <img src="Python-logo-notext.svg.png" alt="Python Logo" width="90px" />
-        </div>
-
-        <div className={styles.galleryLogo}>
-          <img src="azure_logo_icon.png" alt="Azure Logo"width="90px" />
-        </div>
-
-        <div className={styles.galleryLogo}>
-          <img src="/terraform.png" alt="Terraform Logo"width="90px" />
-        </div>
-
-        <div className={styles.galleryLogo}>
-          <img src="next-js.svg" alt="Next.js Logo"width="90px"/>
-        </div>
-
-        </div>
-      </div>
-
-      <div id="projects" className={styles.skills}>
+    <div id="projects" className={styles.skills}>
         <div className={styles.title}>
           <a>Projects</a>
         </div>
 
         <div className={styles.projectGallery}>
           <div className={styles.projectSubject}>
-            <img src="streamline-ultimate-regular---free--24x24-SVG/Cloud-Add--Streamline-Ultimate.svg" alt="C Logo"/>
-            <a> Cloud </a>
+              <img src="streamline-ultimate-regular---free--24x24-SVG/Cloud-Add--Streamline-Ultimate.svg" alt="C Logo"/>
+              <a> Cloud </a>
           </div>
 
           <div className={styles.projectSubject}>
-            <img src="streamline-ultimate-regular---free--24x24-SVG/Fiber-Access-1--Streamline-Ultimate.svg" alt="c++ Logo" />
-            <a> Systems Programming </a>
+              <img src="streamline-ultimate-regular---free--24x24-SVG/Fiber-Access-1--Streamline-Ultimate.svg" alt="c++ Logo" />
+              <a> Systems Programming </a>
           </div>
 
           <div className={styles.projectSubject}>
-            <img src="streamline-ultimate-regular---free--24x24-SVG/Help-Question-Network--Streamline-Ultimate.svg" alt="Python Logo"/>
-            <a> Machine Learning </a>
+              <img src="streamline-ultimate-regular---free--24x24-SVG/Help-Question-Network--Streamline-Ultimate.svg" alt="Python Logo"/>
+              <a> Machine Learning </a>
           </div>
 
           <div className={styles.projectSubject}>
-            <img src="streamline-ultimate-regular---free--24x24-SVG/Lock-Hierarchy--Streamline-Ultimate.svg" alt="Purview Logo" />
-            <a> CyberSec </a>
-          </div> 
+              <img src="streamline-ultimate-regular---free--24x24-SVG/Lock-Hierarchy--Streamline-Ultimate.svg" alt="Purview Logo" />
+              <a> CyberSec </a>
+          </div>
         </div>
-      </div>
+    </div>
 
-      <div id="experience" className={styles.skills}>
+    <div id="experience" className={styles.skills}>
         <div className={styles.title}>
           <a>Experience</a>
         </div>
 
         <div className={styles.projectGallery}>
+          <div className={styles.experienceLogo}>
+              <img src="University - HorizLeftLogo-OnDark (RGB).png" width="200" alt="University Logo" />
+              <a className={styles.desc}>
+              Jan '22 - Current / Bachelor or Science in Computer Science
+              </a>
+          </div>
 
-        <div className={styles.experienceLogo}>
-          <img src="University - HorizLeftLogo-OnDark (RGB).png" width="200" alt="University Logo" />
-          <a className={styles.desc}>
-          Jan '22 - Current / Bachelor or Science in Computer Science
-          </a>
+          <div className={styles.experienceLogo}>
+              <img src="OLCF_official_white_10_26_15.png" width="205" alt="OLCF Logo" />
+              <a className={styles.desc}>
+              Jun '24 - Current / Azure Cloud Engineer Intern
+              </a>
+          </div>
         </div>
+    </div>
 
-        <div className={styles.experienceLogo}>
-          <img src="OLCF_official_white_10_26_15.png" width="205" alt="OLCF Logo" />
-          <a className={styles.desc}>
-          Jun '24 - Current / Azure Cloud Engineer Intern
-          </a>
-        </div>
-
-        </div>
-
-      </div>
-
-      <div id="resume" className={styles.skills}>
+    <div id="resume" className={styles.skills}>
         <div  className={styles.title}>
           <a>Resume</a>
         </div>
+
         <div className={styles.description}>
           <a>Click Below to View</a>
         </div>
+        
         <a href="Copy of Resume.pdf" className={styles.resumedownload} target='_blank'>
-          <img src="Business-User-Curriculum--Streamline-Core.png" width="50" alt="Download Icon" />
+        <img src="Business-User-Curriculum--Streamline-Core.png" width="50" alt="Download Icon" />
         </a>
-      </div>
     </div>
+  </div>
   );
 }
