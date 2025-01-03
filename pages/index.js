@@ -30,46 +30,28 @@ export default function Home() {
 
         <div className={styles.galleryLogo}>
           <img src="c_logo_icon.png" alt="C Logo" width="90px" />
-          <div className={styles.containers}>
-            <div className={styles.c}></div>
-          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="13841574.png" alt="c++ Logo" width="90px" />
-          <div className={styles.containers}>
-            <div className={styles.cpp}></div>
-          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="Python-logo-notext.svg.png" alt="Python Logo" width="90px" />
-          <div className={styles.containers}>
-            <div className={styles.python}></div>
-          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="azure_logo_icon.png" alt="Azure Logo"width="90px" />
-          <div className={styles.containers}>
-            <div className={styles.azure}></div>
-          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="/terraform.png" alt="Terraform Logo"width="90px" />
-          <div className={styles.containers}>
-            <div className={styles.terraform}></div>
-          </div>
         </div>
 
         <div className={styles.galleryLogo}>
           <img src="next-js.svg" alt="Next.js Logo"width="90px"/>
-          <div className={styles.containers}>
-            <div className={styles.js}></div>
-          </div>
-
         </div>
+
         </div>
       </div>
 
