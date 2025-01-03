@@ -69,7 +69,7 @@ export default function Home() {
 
         <div className={styles.projectGallery}>
           <div className={styles.projectSubject}>
-
+            <img src="ResumeSite.png" width="256px"/>
           </div>
 
           <div className={styles.projectSubject}>
