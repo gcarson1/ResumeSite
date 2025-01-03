@@ -214,24 +214,34 @@
 }
 
 
-.projectGallery {
+.experienceGallery {
   justify-content: center; /* Center images horizontally */
   gap: 2rem; /* Add spacing between images */
   flex-wrap: wrap; /* Allow wrapping if screen is too small */
   max-width: 95%;
 }
 
+.projectGallery {
+  display: flex;
+  justify-content: center; /* Center images horizontally */
+  flex-wrap: wrap; /* Allow wrapping if screen is too small */
+  background-color: rgb(15, 15, 15);
+  max-width: 95%;
+  overflow: auto;
+  border-radius: 7px;
+  margin-top: 2rem;
+}
 
 .projectSubject {
   display: flex;
   flex-direction: row;
-  max-width: 250px; /* Set a maximum width for each image */
-  min-width: 30px;
-  height: auto; /* Maintain aspect ratio */
-  border-radius: 5px; /* Optional: Add rounded corners */
+  width: 18rem; /* Set a maximum width for each image */
+  height: 24rem; /* Maintain aspect ratio */
+  border-radius: 9px; /* Optional: Add rounded corners */
   margin: 1rem;
   gap: 1rem;
   font-size: 16px;
+  background-color: rgb(68, 68, 68);
   color: rgb(178, 178, 178);
 }
 
@@ -313,5 +323,5 @@
     z-index: 1010;
     padding-bottom: 2.3rem;
   }
-  
+
 }

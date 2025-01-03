@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon1.ico" />
     </Head>
 
-    
+
 
     <div id="gabe" className={styles.home}>
         <div>
@@ -69,23 +69,19 @@ export default function Home() {
 
         <div className={styles.projectGallery}>
           <div className={styles.projectSubject}>
-              <img src="streamline-ultimate-regular---free--24x24-SVG/Cloud-Add--Streamline-Ultimate.svg" alt="C Logo"/>
-              <a> Cloud </a>
+
           </div>
 
           <div className={styles.projectSubject}>
-              <img src="streamline-ultimate-regular---free--24x24-SVG/Fiber-Access-1--Streamline-Ultimate.svg" alt="c++ Logo" />
-              <a> Systems Programming </a>
+
           </div>
 
           <div className={styles.projectSubject}>
-              <img src="streamline-ultimate-regular---free--24x24-SVG/Help-Question-Network--Streamline-Ultimate.svg" alt="Python Logo"/>
-              <a> Machine Learning </a>
+
           </div>
 
           <div className={styles.projectSubject}>
-              <img src="streamline-ultimate-regular---free--24x24-SVG/Lock-Hierarchy--Streamline-Ultimate.svg" alt="Purview Logo" />
-              <a> CyberSec </a>
+
           </div>
         </div>
     </div>
@@ -97,7 +93,7 @@ export default function Home() {
           <a>Experience</a>
         </div>
 
-        <div className={styles.projectGallery}>
+        <div className={styles.experienceGallery}>
           <div className={styles.experienceLogo}>
               <img src="University - HorizLeftLogo-OnDark (RGB).png" width="200" alt="University Logo" />
               <a className={styles.desc}>
