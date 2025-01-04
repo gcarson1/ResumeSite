@@ -67,7 +67,7 @@ export default function Home() {
           <a>Projects</a>
         </div>
         <div className={styles.description}>
-          <p>Click On a Projects Preview Image to Learn More About It!</p>
+          <p>Click On a Project's Preview Image to Learn More About It!</p>
         </div>
 
         <div className={styles.projectGallery}>
