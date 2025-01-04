@@ -76,6 +76,13 @@ export default function Home() {
               <img className={styles.projectImage} src="ResumeSite.png" width="256px" alt="Resume Site Preview" />
             </a>
             <p className={styles.projectDescription}>This is my personal Portfolio and Digital Resume</p>
+
+            <div className={styles.projectTags}>
+              <p className={styles.tag}>Tags:</p>
+              <a className={styles.tagBubble1}>HTML</a>
+              <a className={styles.tagBubble2}>CSS</a>
+              <a className={styles.tagBubble1}>JavaScript</a>
+            </div>
           </div>
 
           <div className={styles.projectSubject}>
