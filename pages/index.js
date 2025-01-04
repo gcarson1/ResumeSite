@@ -82,10 +82,21 @@ export default function Home() {
               <a className={styles.tagBubble1}>HTML</a>
               <a className={styles.tagBubble2}>CSS</a>
               <a className={styles.tagBubble1}>JavaScript</a>
+              <a className={styles.tagBubble2}>Vercel</a>
             </div>
           </div>
 
           <div className={styles.projectSubject}>
+          <a href="https://github.com/gcarson1/FLD-PCA-and-Clustering-for-Image-Data/tree/main" target="_blank" rel="noopener noreferrer">
+              <img className={styles.projectImage} src="ResumeSite (1).png" width="256px" alt="Resume Site Preview" />
+            </a>
+            <p className={styles.projectDescription}>Clustering Methods using dimen- sionality reduction for image data.</p>
+
+            <div className={styles.projectTags}>
+              <p className={styles.tag}>Tags:</p>
+              <a className={styles.tagBubble1}>Python</a>
+              <a className={styles.tagBubble2}>ML</a>
+          </div>
 
           </div>
 
