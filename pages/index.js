@@ -133,7 +133,7 @@ export default function Home() {
           <div className={styles.experienceLogo}>
               <img src="University - HorizLeftLogo-OnDark (RGB).png" width="200" alt="University Logo" />
               <a className={styles.desc}>
-              Jan '22 - Current / Bachelor or Science in Computer Science
+              Jan '22 - Current / Bachelor of Science in Computer Science
               </a>
           </div>
 
