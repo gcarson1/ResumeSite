@@ -233,7 +233,7 @@
   flex-shrink: 0;
   width: 17rem; /* Set a maximum width for each image */
   height: 20rem; /* Maintain aspect ratio */
-  border-radius: 9px; /* Optional: Add rounded corners */
+  border-radius: 12px; /* Optional: Add rounded corners */
   margin: 1rem;
   gap: 1rem;
   font-size: 16px;
@@ -245,7 +245,7 @@
 .projectImage {
   margin-top: .5rem;
   margin-left: .5rem;
-  border-radius: 8px;
+  border-radius: 9px;
 }
 
 .projectDescription {
