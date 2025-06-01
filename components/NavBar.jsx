@@ -37,20 +37,34 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navContainer}>
+      <div className={styles.menuWrapper}>
+        <div className={styles.logo}>
+          <Link href="#gabe">
+            <span className={styles.brand}>Gabriel</span>
+          </Link>
+        </div>
+
+        <div className={styles.desktopMenu}>
+          <Link className={styles.navButton} href="#skills">Skills</Link>
+          <Link className={styles.navButton} href="#projects">Projects</Link>
+          <Link className={styles.navButton} href="#experience">Experience</Link>
+          <Link className={styles.navButton} href="#resume">Resume</Link>
+        </div>
+
         <div className={styles.menuIcon} onClick={toggleMenu}>
-          <Image className={styles.menuIcon} src='menu-burger-horizontal-svgrepo-com.svg' width={33} height={33} alt="Menu"/>
+          <Image src="/menu-burger-horizontal-svgrepo-com.svg" width={30} height={30} alt="Menu" />
         </div>
-        <div className={`${isOpen ? styles.showMenu : ''} ${isOpen ? styles.menuItemsVisible : styles.menuItems}`}>
-          <Link className={styles.navButton} href="#gabe" >gabe</Link>
-          <a> </a>
-          <Link className={styles.navButton} href="#skills" >skills</Link>
-          <a> </a>
-          <Link className={styles.navButton} href="#projects" >projects</Link>
-          <a> </a>
-          <Link className={styles.navButton} href="#experience" >experience</Link>
-          <a> </a>
-          <Link className={styles.navButton} href="#resume" >resume</Link>
+      </div>
+
+      {isOpen && (
+        <div className={styles.mobileMenu}>
+          <Link className={styles.navButton} href="/">gabe</Link>
+          <Link className={styles.navButton} href="#skills">skills</Link>
+          <Link className={styles.navButton} href="#projects">projects</Link>
+          <Link className={styles.navButton} href="#experience">experience</Link>
+          <Link className={styles.navButton} href="#resume">resume</Link>
         </div>
+      )}
     </nav>
   );
 };
