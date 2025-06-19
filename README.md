@@ -1,74 +1,37 @@
-# Resume Site
+# Gabriel Carson — Resume Site
 
-A sleek, modern, and mobile-friendly resume website built with [Next.js](https://nextjs.org/), [React](https://reactjs.org/), and [Tailwind CSS](https://tailwindcss.com/). This project is designed to showcase your professional profile, work experience, and technical skills in a highly customizable single-page format.
+Hey there! 👋 I'm Gabriel Carson, a student, developer, and Cloud Engineer Intern with a passion for building things that are clean, fast, and purposeful. This site is my personal resume — a snapshot of who I am, what I’ve worked on, and where I’m headed.
 
-## 🚀 Features
+I built this site using modern web tools like Next.js and Tailwind CSS to keep things simple, responsive, and easy to maintain. It’s designed to highlight my experience, education, and projects in a way that’s both professional and approachable.
 
-- ⚡ Fast and lightweight with Next.js
-- 📱 Fully responsive design
-- 🎨 Styled using Tailwind CSS
-- 🧩 Modular components for easy customization
-- 🌐 SEO-friendly and ready for deployment
+## 💼 About This Site
 
-## 🛠️ Tech Stack
+- It’s fully responsive (works great on mobile and desktop)
+- Built as a single-page app for speed and simplicity
+- Easy to update as I grow and take on new opportunities
 
-- **Framework:** Next.js
-- **Styling:** Tailwind CSS, PostCSS
-- **Language:** JavaScript (React 18)
-- **Animations & UI:** `hamburger-react` for mobile navigation
+## 🚀 Getting Started
 
-## 📦 Installation
+If you're curious to run it locally or make it your own:
 
-1. Clone the repo:
-
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/ResumeSite.git
-   cd ResumeSite
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Run locally:
-
-   ```bash
-   npm run dev
-   ```
-
-4. Build for production:
-
-   ```bash
-   npm run build
-   npm start
-   ```
-
-## 📁 Project Structure
-
-```
-├── components/         # Reusable UI components
-├── pages/              # Next.js page routes
-├── public/             # Static assets
-├── styles/             # Global and utility styles
-├── tailwind.config.js  # Tailwind CSS config
-├── postcss.config.js   # PostCSS config
+```bash
+git clone https://github.com/YOUR_USERNAME/ResumeSite.git
+cd ResumeSite
+npm install
+npm run dev
 ```
 
-## 🌍 Deployment
+## 📌 Why I Made It
 
-This project can be deployed to any platform that supports Node.js, including:
+I wanted a place that reflects me — not just a static resume PDF. This site gives a better sense of my style, my work, and my approach to tech. Plus, I learned a ton while building it.
 
-- **Vercel** (recommended)
-- Netlify
-- Azure Static Web Apps
-- AWS Amplify
+## 🌐 Deployment
 
-## 🧾 License
+Live site is deployed and can be hosted anywhere that supports Node.js — Vercel, Netlify, or your own server.
 
-This project is licensed under the [MIT License](LICENSE).
+## 📫 Get in Touch
 
-## 🙋‍♂️ Author
+- LinkedIn: [linkedin.com/in/gabriel-carson](https://linkedin.com/in/gabriel-carson)
+- Portfolio: [smartcart.cloud](https://smartcart.cloud)
 
-Gabriel Carson — [LinkedIn](https://linkedin.com/in/gabriel-carson) • [Website](https://smartcart.cloud)
+Thanks for checking it out!
