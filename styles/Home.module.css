@@ -8,10 +8,11 @@
   padding: 1rem;
   padding-left: 2rem;
   height: 6vh;
-  background-image: linear-gradient(180deg,rgb(9, 9, 9) ,  rgba(18, 18, 18, 0.956));
+  background-image: linear-gradient(180deg,rgba(12, 12, 12, 0.994) ,  rgba(24, 24, 24, 0.956));
   text-align: center;
   box-shadow: 0px 1px 5px 3px rgba(10, 10, 10, 0.352);
   position:fixed;
+  border-bottom: 1.5px solid rgba(17, 17, 17, 0.41);
 }
 
 
@@ -557,6 +558,7 @@
   align-items: center;
   padding: 2rem;
   margin-bottom: 8rem;
+  border-bottom: 2px solid rgba(138, 138, 138, 0.1);
 }
 
 .heroContent {
