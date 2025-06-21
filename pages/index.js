@@ -74,7 +74,7 @@ export default function Home() {
         <div className={styles.projectGallery}>
 
           <div className={styles.projectSubject}>
-            <a href="https://smart-cart-0fafb1441615.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://smartcart.cloud/" target="_blank" rel="noopener noreferrer">
               <img className={styles.projectImage} src="ResumeSite (4).png" width="256px" alt="Resume Site Preview" />
             </a>
             <p className={styles.projectDescription}>Assistant to help customers navigate stores using RAG.</p>
@@ -171,8 +171,12 @@ export default function Home() {
           <a>Click Below to View</a>
         </div>
         
-        <a href="Copy of Resume.pdf" className={styles.resumedownload} target='_blank'>
-        <img src="Business-User-Curriculum--Streamline-Core.png" width="50" alt="Download Icon" />
+<a 
+  href="/Gabriel Carson Resume.pdf" 
+  className={styles.resumedownload} 
+  target="_blank" 
+  rel="noopener noreferrer"
+>        <img src="Business-User-Curriculum--Streamline-Core.png" width="50" alt="Download Icon" />
         </a>
     </div>
 
@@ -205,10 +209,10 @@ export default function Home() {
       <path d="M20.677 4.117A1.996 1.996 0 0 0 20 4H4c-.225 0-.44.037-.642.105l.758.607L12 10.742 19.9 4.7l.777-.583Z"/>
     </svg>
     <a
-      href="mailto:gabe@example.com"
+      href="mailto:gabecarson22@gmail.com"
       className={styles.contactLink}
     >
-      gabe@example.com
+      gabecarson22@gmail.com
     </a>
   </li>
 </ul>
