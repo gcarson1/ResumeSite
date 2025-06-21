@@ -10,7 +10,7 @@
   height: 6vh;
   background-image: linear-gradient(180deg,rgb(9, 9, 9) ,  rgba(18, 18, 18, 0.956));
   text-align: center;
-  box-shadow: 0px 1px 5px 3px rgba(10, 10, 10, 0.821);
+  box-shadow: 0px 1px 5px 3px rgba(10, 10, 10, 0.352);
   position:fixed;
 }
 
@@ -548,11 +548,15 @@
 }
 
 .heroWrapper {
-  min-height: 90vh;
+  background-image: url("/MOUNTAIN.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 94vh;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  margin-bottom: 8rem;
 }
 
 .heroContent {
