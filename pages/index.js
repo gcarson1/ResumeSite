@@ -147,14 +147,14 @@ export default function Home() {
           <div className={styles.experienceLogo}>
               <img src="University - HorizLeftLogo-OnDark (RGB).png" width="200" alt="University Logo" />
               <a className={styles.desc}>
-              Jan '22 - Current / Bachelor of Science in Computer Science
+              Jan '22 - Dec '25 / Bachelor of Science in Computer Science
               </a>
           </div>
 
           <div className={styles.experienceLogo}>
               <img src="OLCF_official_white_10_26_15.png" width="205" alt="OLCF Logo" />
               <a className={styles.desc}>
-              Jun '24 - Current / Azure Cloud Engineer Intern
+              Jun '24 - May '25 / Azure Cloud Engineer Intern
               </a>
           </div>
         </div>
@@ -168,7 +168,7 @@ export default function Home() {
         </div>
 
         <div className={styles.description}>
-          <a>Click Below to View</a>
+          <a></a>
         </div>
         
 <a 
@@ -176,7 +176,7 @@ export default function Home() {
   className={styles.resumedownload} 
   target="_blank" 
   rel="noopener noreferrer"
->        <img src="Business-User-Curriculum--Streamline-Core.png" width="50" alt="Download Icon" />
+>        <img src="57-571497_related-papers-download-pdf-button-png-removebg-preview.png" width="50" alt="Download Icon" />
         </a>
     </div>
 
