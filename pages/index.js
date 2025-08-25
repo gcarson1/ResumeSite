@@ -1,13 +1,23 @@
 import { useState } from 'react';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
-
-
+import dynamic from 'next/dynamic';
+const AnimatedBackground = dynamic(
+  () =>
+    import('animated-backgrounds').then(m => m.AnimatedBackground),
+  { ssr: false }
+);
 export default function Home() {
   const [showContact, setShowContact] = useState(false);
 
   return (
         <>
+
+              <AnimatedBackground 
+        animationName="fireflies"
+        theme="presentation"
+        fps={30}
+      />
 <section className={styles.heroWrapper}>
   <div className={styles.heroContent}>
     <div className={styles.title}>Gabriel Carson</div>

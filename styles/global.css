@@ -4,7 +4,7 @@
 
 html,
 body {
-  background-color: rgb(12, 12, 12);
+  background-color: rgba(12, 12, 12, 0.617);
   background-repeat: repeat;
   background-position: bottom;
   background-attachment: scroll;
