@@ -4,8 +4,7 @@
 
 html,
 body {
-  background-color: rgba(12, 12, 12, 0.617);
-  background-repeat: repeat;
+  background: linear-gradient(to bottom, transparent 10%, rgb(18, 18, 18) 50%);  background-repeat: repeat;
   background-position: bottom;
   background-attachment: scroll;
   font-family: 29lt_bukraregular;

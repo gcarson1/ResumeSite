@@ -7,15 +7,16 @@ const AnimatedBackground = dynamic(
     import('animated-backgrounds').then(m => m.AnimatedBackground),
   { ssr: false }
 );
+
 export default function Home() {
   const [showContact, setShowContact] = useState(false);
 
   return (
         <>
-
               <AnimatedBackground 
         animationName="fireflies"
-        theme="presentation"
+        theme="portfolio"
+        opacity={1.0}
         fps={30}
       />
 <section className={styles.heroWrapper}>
@@ -37,7 +38,6 @@ export default function Home() {
     </div>
   </div>
 </section>
-
     <div id="skills" className={styles.skills}>
         <div className={styles.title}>
           <a>Skills</a>
