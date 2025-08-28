@@ -216,7 +216,7 @@
 .projectGallery {
   display:flex;
   flex-wrap: nowrap;
-  max-width: 95%;
+  max-width: 97%;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   border-radius: 7px;
@@ -226,75 +226,66 @@
 
 .projectSubject {
   flex-shrink: 0;
-  width: 17rem; /* Set a maximum width for each image */
+  width: 19rem; /* Set a maximum width for each image */
   height: 20rem; /* Maintain aspect ratio */
   border-radius: 14px; /* Optional: Add rounded corners */
   margin: 1rem;
   gap: 1rem;
-  font-size: 16px;
-  background-image: linear-gradient(180deg,rgb(56, 56, 56) ,  rgb(35, 35, 35));
+  font-size: 17px;
+  background-image: linear-gradient(180deg,rgb(36, 36, 36) ,  rgb(24, 24, 24));
   color: rgba(232, 232, 232, 0.91);
-  box-shadow: 1px 3px 8px 8px rgba(25, 25, 25, 0.709);
+  border: 2px solid rgb(48, 48, 48);
+
+  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.709);
 }
 
 .projectSubject:hover {
   transform: scale(1.02);
   transition: transform 0.3s ease;
+  transform: box-shadow 1s;
+  border: 2px solid rgb(64, 63, 63);
+
+  box-shadow: 0px 1px 9px 5px rgba(61, 61, 61, 0.424);
 }
 
 .projectImage {
-  margin-top: .5rem;
   margin-left: .5rem;
+  margin-top: .5rem;
   border-radius: 9px;
   box-shadow:0px 1px 8px 4px rgba(23, 23, 23, 0.74);
-  border: 1px solid rgb(71, 71, 71);
+  border: 1px solid rgb(57, 57, 57);
 }
 
 .projectDescription {
-  padding-top: 1rem;
+  padding-top: .75rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
   flex-wrap: wrap;
   display: flex;
 }
 
-.projectTags {
-  padding-top: 1rem;
+.options {
+  margin-top: 1rem;
+  padding: 1.5rem;
+
 }
 
-.tag {
-  color: rgb(161, 161, 161);
+.option {
+  color: rgb(183, 183, 183);
   font-size: 14px;
-  padding: .75rem;
-}
-
-.tagBubble1 {
-  font-size: 14px;
-  margin-top: 1.5rem;
-  padding: 5px;
-  width: auto;
-  height: auto;
-  background-color: rgb(35, 34, 34);
-  background-image: linear-gradient(-45deg,rgb(13, 13, 13) ,  rgb(28, 28, 28));
+  padding: .5rem;
+  margin: .2rem;
   border-radius: 7px;
-  box-shadow: 0px 1px 5px 2px rgba(42, 42, 42, 0.679);
+  background-color: rgb(61, 61, 61);
+  box-shadow: 0px 1px 5px 2px rgba(11, 11, 11, 0.679);
+  transition: background-color 0.3s ease;
+  border: 1px solid rgb(97, 97, 97);
 }
 
-.tagBubble2 {
-  font-size: 14px;
-  margin-top: 1.5rem;
-  padding: 5px;
-  width: auto;
-  color:rgb(34, 34, 34);
-  height: auto;
-  background-image: linear-gradient(-45deg,rgb(121, 121, 121) ,  rgb(166, 166, 166));
-  border-radius: 7px;
-  margin: .3rem;
-  box-shadow: 0px 1px 5px 2px rgba(42, 42, 42, 0.678);
+.option:hover {
+  box-shadow: 0px 1px 5px 3px rgba(40, 40, 40, 0.979);
+  background-color: rgb(28, 28, 28);
 }
-
-
-
-
-
 
 /* FOOTER */
 

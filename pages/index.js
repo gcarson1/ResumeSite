@@ -86,63 +86,56 @@ export default function Home() {
 
           <div className={styles.projectSubject}>
             <a href="https://smartcart.cloud/" target="_blank" rel="noopener noreferrer">
-              <img className={styles.projectImage} src="ResumeSite (4).png" width="256px" alt="Resume Site Preview" />
+              <img className={styles.projectImage} src="ResumeSite (4).png" width="284px" alt="Resume Site Preview" />
             </a>
             <p className={styles.projectDescription}>Assistant to help customers navigate stores using RAG.</p>
 
-            <div className={styles.projectTags}>
-              <p className={styles.tag}>Tags:</p>
-              <a className={styles.tagBubble1}>LLM</a>
-              <a className={styles.tagBubble2}>Flask</a>
-              <a className={styles.tagBubble1}>Team</a>
-              <a className={styles.tagBubble2}>RAG</a>
+            <div className={styles.options}>
+              <a className={styles.option} href="https://smartcart.cloud/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className={styles.option} href="https://github.com/gcarson1/SmartCart" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a className={styles.option} href="/" target="_blank" rel="noopener noreferrer">More Info</a>
             </div>
           </div>
 
 
           <div className={styles.projectSubject}>
             <a href="https://github.com/gcarson1/ResumeSite" target="_blank" rel="noopener noreferrer">
-              <img className={styles.projectImage} src="ResumeSite.png" width="256px" alt="Resume Site Preview" />
+              <img className={styles.projectImage} src="ResumeSite.png" width="284px" alt="Resume Site Preview" />
             </a>
             <p className={styles.projectDescription}>My personal Portfolio and Digital Resume.</p>
 
-            <div className={styles.projectTags}>
-              <p className={styles.tag}>Tags:</p>
-              <a className={styles.tagBubble1}>HTML</a>
-              <a className={styles.tagBubble2}>CSS</a>
-              <a className={styles.tagBubble1}>JavaScript</a>
-              <a className={styles.tagBubble2}>Vercel</a>
+            <div className={styles.options}>
+              <a className={styles.option} href="https://smartcart.cloud/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className={styles.option} href="https://github.com/gcarson1/SmartCart" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a className={styles.option} href="/" target="_blank" rel="noopener noreferrer">More Info</a>
             </div>
           </div>
 
           <div className={styles.projectSubject}>
           <a href="https://github.com/gcarson1/FLD-PCA-and-Clustering-for-Image-Data/tree/main" target="_blank" rel="noopener noreferrer">
-              <img className={styles.projectImage} src="ResumeSite (1).png" width="256px" alt="Resume Site Preview" />
+              <img className={styles.projectImage} src="ResumeSite (1).png" width="284px" alt="Resume Site Preview" />
             </a>
             <p className={styles.projectDescription}>Clustering Methods using dimen- sionality reduction for image data.</p>
 
-            <div className={styles.projectTags}>
-              <p className={styles.tag}>Tags:</p>
-              <a className={styles.tagBubble1}>Python</a>
-              <a className={styles.tagBubble2}>ML</a>
-          </div>
+            <div className={styles.options}>
+              <a className={styles.option} href="https://smartcart.cloud/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className={styles.option} href="https://github.com/gcarson1/SmartCart" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a className={styles.option} href="/" target="_blank" rel="noopener noreferrer">More Info</a>
+            </div>
 
           </div>
 
           <div className={styles.projectSubject}>
           <a href="https://github.com/gcarson1/ClassMate" target="_blank" rel="noopener noreferrer">
-              <img className={styles.projectImage} src="ResumeSite (2).png" width="256px" alt="Resume Site Preview" />
+              <img className={styles.projectImage} src="ResumeSite (2).png" width="284px" alt="Resume Site Preview" />
             </a>
-            <p className={styles.projectDescription}>Team project to create a service like Rate My Professor but for Classes.</p>
+            <p className={styles.projectDescription}>My teams take on RateMyProfessor but for classes.</p>
 
-            <div className={styles.projectTags}>
-              <p className={styles.tag}>Tags:</p>
-              <a className={styles.tagBubble1}>Azure</a>
-              <a className={styles.tagBubble2}>JavaScript</a>
-              <a className={styles.tagBubble1}>SQL</a>
-              <a className={styles.tagBubble2}>Team</a>
-          
-          </div>
+            <div className={styles.options}>
+              <a className={styles.option} href="https://smartcart.cloud/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className={styles.option} href="https://github.com/gcarson1/SmartCart" target="_blank" rel="noopener noreferrer">GitHub</a>
+              <a className={styles.option} href="/" target="_blank" rel="noopener noreferrer">More Info</a>
+            </div>
           </div>
         </div>
     </div>
