@@ -132,7 +132,7 @@ export default function Home() {
             <p className={styles.projectDescription}>My teams take on RateMyProfessor but for classes.</p>
 
             <div className={styles.options}>
-              <a className={styles.option} href="/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              <a className={styles.option} href="https://classmate-q4pt.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
               <a className={styles.option} href="https://github.com/gcarson1/ClassMate" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a className={styles.option} href="/" target="_blank" rel="noopener noreferrer">More Info</a>
             </div>
