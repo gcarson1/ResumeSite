@@ -5,13 +5,20 @@
   align-items: center;
   align-content: center;
   width: 100%;
-  padding: 1rem;
-  padding-left: 2rem;
+  padding: .5rem;
+  padding-left: 10%;
+  padding-right: 10%;
   height: 6vh;
   background-image: linear-gradient(180deg,rgb(18, 18, 18) ,  rgba(4, 5, 8, 0.912));
   text-align: center;
   box-shadow: 0px 1px 5px 3px rgba(10, 10, 10, 0.352);
   position:fixed;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap');
+
+.h1 {
+    font-family: 'Bitcount Prop Single';
 }
 
 
@@ -56,14 +63,15 @@
 
 
 .navButton {
-  padding-right: 4rem;
-  padding-top: 1rem;
-  padding-bottom: 3rem;
+  font-family: 'Bitcount Prop Single Light';
+  padding-bottom: 2.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
   width: auto;
-  height: 4rem;
+  height: 2rem;
   color: rgb(192, 192, 192);
-  font-size: 1.3rem;
-  text-align: left;
+  font-size: 1.8rem;
+  text-align: center;
   z-index: 1000;
 }
 .navButton:hover {
@@ -90,6 +98,8 @@
 
 
 .skills {
+  transition: min-width 0.5s ease, margin 0.5s ease;
+
   background-image:linear-gradient(-25deg, rgb(6, 6, 6), rgb(12, 12, 12));
   min-height: 30vh;
   max-width: 70vw;
@@ -322,15 +332,18 @@
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
   .menuItems {
     display: none; /* Hidden by default on smaller screens */
   }
 
-
+.navContainer {
+  padding: 1rem 2rem;
+}
   .showMenu {
     display: flex;
+
   }
 
   .brand {
@@ -343,12 +356,12 @@
 
 
   .skills {
+    transition: min-width 0.5s ease, margin 0.3s ease;
     min-width: 90%;
     margin: 5%;
   }
   
   .home {
-
     max-width: 100%;
     padding-left: 5%;
   }
@@ -381,11 +394,16 @@
 }
 
 .logo {
-  padding-left: 2rem; /* Or use margin-left if you want it separate from padding */}
+  font-family: 'Bitcount Prop Single Light';
+  padding-left: 2rem; /* Or use margin-left if you want it separate from padding */
+  padding-right: 2rem;
+  height: 2rem;
+  margin-bottom: 1rem;
+}
 
 .brand {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-family: 'Bitcount Prop Single Light';
+  font-size: 2.5rem;
   color: #e0e0e0;
 }
 
@@ -408,7 +426,7 @@
   z-index: 999;
 }
 
-@media (max-width: 915px) {
+@media (max-width: 1000px) {
   .desktopMenu {
     display: none;
   }

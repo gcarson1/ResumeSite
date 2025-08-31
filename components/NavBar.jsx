@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from '../styles/Home.module.css';
 
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
@@ -40,15 +42,15 @@ const Navbar = () => {
       <div className={styles.menuWrapper}>
         <div className={styles.logo}>
           <Link href="#gabe">
-            <span className={styles.brand}>Gabriel</span>
+            <h1 className={styles.brand}>gabriel</h1>
           </Link>
         </div>
 
         <div className={styles.desktopMenu}>
-          <Link className={styles.navButton} href="#skills">Skills</Link>
-          <Link className={styles.navButton} href="#projects">Projects</Link>
-          <Link className={styles.navButton} href="#experience">Experience</Link>
-          <Link className={styles.navButton} href="#resume">Resume</Link>
+          <Link className={styles.navButton} href="#skills">skills</Link>
+          <Link className={styles.navButton} href="#projects">projects</Link>
+          <Link className={styles.navButton} href="#experience">experience</Link>
+          <Link className={styles.navButton} href="#resume">resume</Link>
         </div>
 
         <div className={styles.menuIcon} onClick={toggleMenu}>
