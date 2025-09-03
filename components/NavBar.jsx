@@ -40,11 +40,6 @@ const Navbar = () => {
   return (
     <nav className={styles.navContainer}>
       <div className={styles.menuWrapper}>
-        <div className={styles.logo}>
-          <Link href="#gabe">
-            <h1 className={styles.brand}>gabriel</h1>
-          </Link>
-        </div>
 
         <div className={styles.desktopMenu}>
           <Link className={styles.navButton} href="#skills">skills</Link>
