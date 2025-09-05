@@ -26,7 +26,7 @@ export default function Home() {
     <h2 className={styles.description}>Cloud Engineer</h2>
     <p className={styles.description}>
       Passionate about building secure, scalable cloud-native applications.
-      Experienced with Azure, OpenTofu, and AI-powered solutions.
+      Experienced with Infrastructure and AI-powered solutions.
     </p>
 
     <div className={styles.heroButtonGroup}>
