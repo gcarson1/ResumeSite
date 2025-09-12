@@ -22,7 +22,7 @@ export default function Home() {
 <section className={styles.heroWrapper}>
   <div className={styles.heroContent}>
     <div className={styles.title}>Gabriel Carson</div>
-    <h2 className={styles.description}>Cloud Engineer</h2>
+    <h2 className={styles.description}>Software Engineer</h2>
     <p className={styles.description}>
       Passionate about building secure, scalable cloud-native applications.
       Experienced with Infrastructure and AI-powered solutions.
