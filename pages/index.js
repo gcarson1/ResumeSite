@@ -21,7 +21,6 @@ export default function Home() {
       />
 <section className={styles.heroWrapper}>
   <div className={styles.heroContent}>
-    <img src="image0-removebg-preview.png" alt="G Logo" width="175px" className={styles.heroImage} />
     <div className={styles.title}>Gabriel Carson</div>
     <h2 className={styles.description}>Cloud Engineer</h2>
     <p className={styles.description}>
