@@ -286,6 +286,7 @@
 .option {
   color: rgb(183, 183, 183);
   font-size: 14px;
+  max-height: 2.3rem;
   padding: .5rem;
   margin: .2rem;
   border-radius: 7px;
@@ -584,3 +585,178 @@
   text-align: center;
   max-width: 600px;
 }
+
+
+/* ===== Modal Base ===== */
+
+.modalBody {
+  color: #e6e6e6;
+}
+
+/* Close button: subtle glass circle with hover glow */
+.modalClose {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  color: #cfcfcf;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: transform 120ms ease, box-shadow 120ms ease, color 120ms ease, border-color 120ms ease, background 120ms ease;
+  backdrop-filter: blur(4px);
+}
+.modalClose:hover {
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35), 0 0 0 1px rgba(255,255,255,0.10) inset;
+  border-color: rgba(255,255,255,0.18);
+}
+
+/* ===== Project Modal Layout ===== */
+
+.projectModalBody {
+  display: block;
+}
+
+.modalDesc {
+  margin: 0;
+  color: #cfcfcf;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Optional: if you want "More Info" buttons to look like links */
+
+
+/* ===== Animations & Reduced Motion ===== */
+
+@keyframes modalFadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes modalPopIn {
+  0%   { opacity: 0; transform: translateY(10px) scale(0.98); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modalOverlay { animation: none; }
+  .modalCard { animation: none; transform: none; opacity: 1; }
+}
+
+/* Accent you can tweak site-wide */
+
+/* Home.module.css */
+.modalOverlay {
+  position: fixed;          /* viewport-bound */
+  inset: 0;                 /* top/right/bottom/left = 0 */
+  z-index: 2000;            /* above your fixed nav */
+  display: grid;
+  place-items: center;
+  padding: clamp(16px, 3.5vw, 40px); /* viewport gutters */
+  background: radial-gradient(60% 60% at 50% 50%, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.86) 100%);
+  animation: modalFadeIn 180ms ease-out;
+}
+
+/* keep your wider card */
+.modalCard {
+  position: relative;
+  width: min(1100px, calc(100vw - 2 * clamp(16px, 3.5vw, 40px)));
+  background: linear-gradient(180deg, rgba(33,33,33,0.96), rgba(24,24,24,0.96));
+  border-radius: 18px;
+  padding: 20px 28px;
+  box-shadow: 0 24px 64px rgba(0,0,0,0.55), 0 1px 0 rgba(255,255,255,0.04) inset;
+  backdrop-filter: blur(10px);
+  transform: translateY(6px) scale(0.98);
+  opacity: 0;
+  animation: modalPopIn 180ms ease-out forwards;
+  outline: none;
+}
+.modalCard::before {
+  content: "";
+  position: absolute; inset: 0;
+  padding: 1px; border-radius: 18px;
+  background: linear-gradient(135deg, rgba(255,255,255,0.14), rgba(255,255,255,0.02));
+  -webkit-mask-composite: xor; mask-composite: exclude;
+}
+
+/* Title spacing */
+.modalHeader { padding-bottom: .6rem; border-bottom: 1px solid rgba(255,255,255,0.06); margin-bottom: 1rem; }
+.modalTitle  { margin: 0; font-size: 1.15rem; font-weight: 650; color: #fff; letter-spacing: .2px; }
+
+/* Two-column grid: consistent media width */
+.projectModalGrid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 1.25rem;
+}
+@media (max-width: 700px) {
+  .projectModalGrid { grid-template-columns: 1fr; }
+}
+
+/* Media block with consistent aspect + subtle frame */
+.modalMedia { position: relative; }
+.modalImage {
+  width: 100%;
+  aspect-ratio: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 12px 26px rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.06);
+}
+.modalMedia::after {
+  content: "";
+  position: absolute; inset: 0;
+  border-radius: 12px;
+  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.04);
+  pointer-events: none;
+}
+
+/* Copy column: readable measure + spacing */
+.modalMeta { display: flex; flex-direction: column; gap: .9rem; }
+.modalSummary {
+  margin: 0;
+  color: #d9d9d9;
+  line-height: 1.7;
+  font-size: 1rem;
+  max-width: 75ch; /* keeps line length comfortable */
+}
+
+/* Chips: clearer contrast, slight depth */
+.techChips { margin-top: .25rem; display: flex; flex-wrap: wrap; gap: .45rem .6rem; }
+.techChip {
+  padding: .28rem .6rem;
+  font-size: .78rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.053));
+  border: 1px solid rgba(197, 197, 197, 0.12);
+  color: #c7c7c7;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.35);
+  white-space: nowrap;
+}
+
+/* Buttons: real primary/secondary (drop the bland gray) */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: .5rem;
+  height: 38px; padding: 0 .9rem;
+  border-radius: 8px; font-size: .95rem; font-weight: 520;
+  transition: transform .12s ease, box-shadow .12s ease, background-color .2s ease, border-color .2s ease, color .2s ease;
+  text-decoration: none; cursor: pointer;
+}
+.btnSecondary {
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.02));
+  color: #e6e6e6;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+.btnSecondary:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(0,0,0,0.35); }
+
+.modalActions { margin-top: .25rem; display: flex; flex-wrap: wrap; gap: .6rem; }
+
+/* Close button: keep as-is (already good) */
