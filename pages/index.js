@@ -102,6 +102,9 @@ export default function Home() {
             <a onClick={() => setShowContact(true)} className={styles.contactButton}>
               Contact Me
             </a>
+            <a href="/blog" target="_blank" rel="noopener noreferrer" className={styles.contactButton}>
+              Blog
+            </a>
           </div>
         </div>
       </section>

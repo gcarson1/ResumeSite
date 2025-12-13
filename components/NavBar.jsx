@@ -42,14 +42,10 @@ const Navbar = () => {
       <div className={styles.menuWrapper}>
 
         <div className={styles.desktopMenu}>
-          <Link className={styles.navButton} href="#skills">skills</Link>
-          <Link className={styles.navButton} href="#projects">projects</Link>
-          <Link className={styles.navButton} href="#experience">experience</Link>
-          <Link className={styles.navButton} href="#resume">resume</Link>
+
         </div>
 
         <div className={styles.menuIcon} onClick={toggleMenu}>
-          <Image src="/menu-burger-horizontal-svgrepo-com.svg" width={30} height={30} alt="Menu" />
         </div>
       </div>
 

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Notes — Gabe's Portfolio</title>
+
+    <!-- Link to CSS (relative so it works served or opened directly) -->
+    <link rel="stylesheet" href="blog.css" />
+    <!-- Improved typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <!-- Using a simple dark header similar to my resume site -->
+    <header class="header">
+        <div class="header-inner">
+            <div class="header-top">
+                <h1>My Tech Blog</h1>
+                <nav class="site-nav" aria-label="Main navigation">
+                    <a href="#">Home</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+            <p class="subtitle">Practical guides, system design notes, and troubleshooting write-ups from a solutions engineer</p>
+            <div class="header-actions">
+                <a class="cta" href="#">Support</a>
+                <a class="cta ghost" href="#">Latest post</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- BLOG INTRO -->
+        <section class="intro">
+            <h2>About This Blog</h2>
+            <p>
+                This is a place where I practice clear technical explanations: architecture
+                tradeoffs, debugging guides, and short tutorials I use in customer-facing
+                conversations. Posts are concise, practical, and focused on real-world
+                systems and workflows.
+            </p>
+        </section>
+        
+        <!-- BLOG POST #1 -->
+        <section class="post">
+            <img src="https://picsum.photos/seed/code/900/400" alt="Code illustration placeholder">
+            <div class="post-content">
+                <h2>Debugging a Flaky CI Pipeline</h2>
+                <p class="date">October 12, 2025</p>
+                <p>
+                    Intermittent CI failures can be caused by test order dependence, shared state,
+                    or resource limits. I walk through a reproducible approach: isolate flaky tests,
+                    add deterministic seeding, and surface hidden dependencies with parallel runs.
+                </p>
+                <p><a class="read-more" href="#">Read post</a></p>
+            </div>
+        </section>
+        
+        <!-- BLOG POST #2 -->
+        <section class="post">
+            <img src="https://picsum.photos/seed/server/900/400" alt="Server room placeholder">
+            <div class="post-content">
+                <h2>Designing Resilient Microservices</h2>
+                <p class="date">November 3, 2025</p>
+                <p>
+                    Building resilient services means designing for failure: retries with
+                    backoff, idempotency, and observability. I summarize patterns I use when
+                    proposing architectures to customers and tradeoffs I consider under load.
+                </p>
+                <p><a class="read-more" href="#">Read post</a></p>
+            </div>
+        </section>
+        
+        <!-- BLOG POST #3 -->
+        <section class="post">
+            <img src="https://picsum.photos/seed/cloud/900/400" alt="Cloud architecture placeholder">
+            <div class="post-content">
+                <h2>Cost Optimization for Cloud Workloads</h2>
+                <p class="date">December 1, 2025</p>
+                <p>
+                    Practical steps to reduce cloud spend: right-sizing, reserved instances,
+                    autoscaling policies, and measuring cost per feature. I include examples used
+                    during customer engagements.
+                </p>
+                <p><a class="read-more" href="#">Read post</a></p>
+            </div>
+        </section>
