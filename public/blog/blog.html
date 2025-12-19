@@ -21,13 +21,13 @@
             <div class="header-top">
                 <h1>My Tech Blog</h1>
                 <nav class="site-nav" aria-label="Main navigation">
-                    <a href="#">Home</a>
-                    <a href="#">Contact</a>
+                    <a href="#" class="nav-home">Home</a>
+                    <a href="#" class="nav-contact">Contact</a>
                 </nav>
             </div>
-            <p class="subtitle">Practical guides, system design notes, and troubleshooting write-ups from a solutions engineer</p>
-            <div class="header-actions">
-                <a class="cta" href="#">Support</a>
+            <p class="subtitle">Breaking down complex systems into clear explanations — practice for real-world systems engineering</p>
+        
+            <a class="cta" href="#">Support</a>
                 <a class="cta ghost" href="#">Latest post</a>
             </div>
         </div>
@@ -53,11 +53,13 @@
         <section class="intro">
             <h2>About This Blog</h2>
             <p>
-                This is a place where I practice clear technical explanations: architecture
-                tradeoffs, debugging guides, and short tutorials I use in customer-facing
-                conversations. Posts are concise, practical, and focused on real-world
-                systems and workflows.
+                This blog exists for one reason: to practice explaining complex technical systems
+                clearly and honestly. I use it to break down architecture decisions, failure modes,
+                and design tradeoffs the same way I would in a customer or internal engineering
+                conversation. Each post is an exercise in turning complexity into something
+                understandable, actionable, and grounded in real systems.
             </p>
+
         </section>
         
         <!-- BLOG POST #1 -->
@@ -71,36 +73,44 @@
                     or resource limits. I walk through a reproducible approach: isolate flaky tests,
                     add deterministic seeding, and surface hidden dependencies with parallel runs.
                 </p>
-                <p><a class="read-more" href="#">Read post</a></p>
+<p><a class="read-more" href="#" data-slug="debugging-flaky-ci">Read post</a></p>
             </div>
         </section>
         
-        <!-- BLOG POST #2 -->
-        <section class="post">
-            <img src="https://picsum.photos/seed/server/900/400" alt="Server room placeholder">
-            <div class="post-content">
-                <h2>Designing Resilient Microservices</h2>
-                <p class="date">November 3, 2025</p>
-                <p>
-                    Building resilient services means designing for failure: retries with
-                    backoff, idempotency, and observability. I summarize patterns I use when
-                    proposing architectures to customers and tradeoffs I consider under load.
-                </p>
-                <p><a class="read-more" href="#">Read post</a></p>
-            </div>
-        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Handle read more links
+            const readMoreLinks = document.querySelectorAll('.read-more');
+            readMoreLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const slug = this.getAttribute('data-slug');
+                    if (slug) {
+                        // Navigate parent window to the blog post page
+                        window.parent.location.href = `/blog-post/${slug}`;
+                    }
+                });
+            });
+
+            // Handle navigation links
+            const homeLink = document.querySelector('.nav-home');
+            if (homeLink) {
+                homeLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.parent.location.href = '/';
+                });
+            }
+
+            const contactLink = document.querySelector('.nav-contact');
+            if (contactLink) {
+                contactLink.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    window.parent.location.href = '/#contact';
+                });
+            }
+        });
+    </script>
         
-        <!-- BLOG POST #3 -->
-        <section class="post">
-            <img src="https://picsum.photos/seed/cloud/900/400" alt="Cloud architecture placeholder">
-            <div class="post-content">
-                <h2>Cost Optimization for Cloud Workloads</h2>
-                <p class="date">December 1, 2025</p>
-                <p>
-                    Practical steps to reduce cloud spend: right-sizing, reserved instances,
-                    autoscaling policies, and measuring cost per feature. I include examples used
-                    during customer engagements.
-                </p>
-                <p><a class="read-more" href="#">Read post</a></p>
-            </div>
-        </section>

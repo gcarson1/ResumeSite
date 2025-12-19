@@ -1,0 +1,54 @@
+.articleContent {
+  display: grid;
+  gap: 1.5rem;
+  line-height: 1.8;
+  font-size: 1rem;
+  color: #e0e0e0;
+}
+
+.articleContent h2 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 2.5rem 0 1rem 0;
+  color: #ffffff;
+  letter-spacing: -0.3px;
+}
+
+.articleContent h2:first-child {
+  margin-top: 0;
+}
+
+.articleContent h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 2rem 0 0.75rem 0;
+  color: #f0f0f0;
+}
+
+.articleContent p {
+  margin: 0;
+  color: #e0e0e0;
+}
+
+.articleContent ul,
+.articleContent ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+.articleContent li {
+  margin: 0.75rem 0;
+  color: #e0e0e0;
+}
+
+.articleContent li strong {
+  color: #F6B54A;
+  font-weight: 600;
+}
+
+.articleContent strong {
+  color: #ffffff;
+  font-weight: 600;
+}
